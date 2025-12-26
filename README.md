@@ -14,13 +14,6 @@ Official website for the **4th Workshop on Memory-Centric Computing Systems (MCC
 
 Processing-in-Memory (PIM) is a computing paradigm that aims to overcome data movement bottlenecks by making memory systems compute-capable. This combined tutorial and workshop will focus on the latest advances in PIM technology, spanning both hardware and software.
 
-## 🔗 Quick Links
-
-- [Workshop Website](https://unrealismail.github.io/mccsys-hpca26/)
-- [Submit Abstract](https://forms.gle/ZRtrBjfRjQT4FhUS8)
-- [HPCA 2026 Conference](https://hpca-conf.org/2026/)
-- [SAFARI Research Group](https://safari.ethz.ch/)
-
 ## 👥 Organizers
 
 - Ismail Emir Yuksel (ETH Zürich)
@@ -30,40 +23,6 @@ Processing-in-Memory (PIM) is a computing paradigm that aims to overcome data mo
 - Dr. Geraldo F. Oliveira (ETH Zürich)
 - Dr. Mohammad Sadrosadati (ETH Zürich)
 - Professor Onur Mutlu (ETH Zürich)
-
-## 🛠️ Local Development
-
-To run the website locally:
-
-```bash
-# Install Jekyll and dependencies
-bundle install
-
-# Serve the website locally
-bundle exec jekyll serve
-
-# Open http://localhost:4000 in your browser
-```
-
-## 📁 Project Structure
-
-```
-mccsys-hpca26/
-├── _config.yml          # Jekyll configuration
-├── _layouts/
-│   └── default.html     # Main layout template
-├── assets/
-│   └── css/
-│       └── style.scss   # Custom styles
-├── index.md             # Main content page
-└── README.md            # This file
-```
-
-## 📜 Past Editions
-
-- [MCCSys @ MICRO 2024](https://events.safari.ethz.ch/micro24-memorycentric-tutorial/)
-- [MCCSys @ HPCA 2024](https://events.safari.ethz.ch/hpca24-MCCSys/)
-- [MCCSys @ ISCA 2023](https://events.safari.ethz.ch/isca23-memorycentric-tutorial/)
 
 ## 📧 Contact
 
