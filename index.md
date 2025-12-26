@@ -26,7 +26,7 @@ layout: default
   <p class="hero-location"> Sydney, Australia</p>
   <div class="hero-buttons">
     <a href="https://forms.gle/ZRtrBjfRjQT4FhUS8" class="btn btn-primary" target="_blank">Submit Abstract</a>
-    <a href="https://https://2026.hpca-conf.org/attending/registration" class="btn btn-secondary" target="_blank">Register Now</a>
+    <a href="https://2026.hpca-conf.org/attending/registration" class="btn btn-secondary" target="_blank">Register Now</a>
   </div>
 </div>
 
