@@ -382,62 +382,37 @@ h3 {
   border-radius: var(--border-radius);
   padding: 2rem;
   margin: 2rem 0;
-}
-
-.key-dates-section table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 0;
-}
-
-.key-dates-section thead {
-  display: none;
-}
-
-.key-dates-section td {
-  padding: 1rem 0.5rem;
-  border-bottom: 1px solid rgba(92, 45, 145, 0.1);
-  vertical-align: middle;
-}
-
-.key-dates-section tr:last-child td {
-  border-bottom: none;
-}
-
-.key-dates-section td:first-child {
-  text-align: left;
-  font-weight: 500;
-  color: var(--text-color);
-}
-
-.key-dates-section td:last-child {
-  text-align: right;
-  font-weight: 600;
-  color: var(--primary-color);
-  font-size: 1.05rem;
+  box-shadow: 0 2px 10px rgba(92, 45, 145, 0.08);
 }
 
 .key-date-row {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 0;
-  border-bottom: 1px solid #eee;
+  padding: 1.2rem 0;
+  border-bottom: 1px solid rgba(92, 45, 145, 0.1);
 }
 
 .key-date-row:last-child {
   border-bottom: none;
+  padding-bottom: 0;
+}
+
+.key-date-row:first-child {
+  padding-top: 0;
 }
 
 .key-date-label {
   font-weight: 500;
   color: var(--text-color);
+  font-size: 1.05rem;
 }
 
 .key-date-value {
-  font-weight: 600;
+  font-weight: 700;
   color: var(--primary-color);
   text-align: right;
+  font-size: 1.1rem;
 }
 
 /* Organizers Grid */
@@ -737,15 +712,17 @@ hr {
   display: flex;
   align-items: flex-start;
   gap: 1.5rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
   padding: 1.5rem;
   background: var(--bg-light);
   border-radius: var(--border-radius);
   transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .organizer-item:hover {
   box-shadow: var(--card-shadow);
+  background: #f3eef8;
 }
 
 .organizer-photo {
@@ -753,11 +730,16 @@ hr {
 }
 
 .organizer-photo img {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid var(--accent-light);
+  transition: all 0.3s ease;
+}
+
+.organizer-item:hover .organizer-photo img {
+  border-color: var(--primary-color);
 }
 
 .organizer-info {
@@ -786,11 +768,22 @@ hr {
   font-size: 0.95rem;
 }
 
+/* Bio hidden by default, expands on hover */
 .organizer-bio {
   color: var(--text-light);
   font-size: 0.95rem;
   line-height: 1.6;
   margin: 0;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.4s ease, opacity 0.3s ease, margin 0.3s ease;
+}
+
+.organizer-item:hover .organizer-bio {
+  max-height: 300px;
+  opacity: 1;
+  margin-top: 0.75rem;
 }
 
 .organizer-email {
@@ -886,8 +879,25 @@ hr {
   }
   
   .organizer-photo img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
+  }
+  
+  /* On mobile, bio is always visible since hover doesn't work well */
+  .organizer-bio {
+    max-height: none;
+    opacity: 1;
+    margin-top: 0.75rem;
+  }
+  
+  .key-date-row {
+    flex-direction: column;
+    gap: 0.3rem;
+    text-align: center;
+  }
+  
+  .key-date-value {
+    text-align: center;
   }
   
   .event-grid {

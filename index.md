@@ -70,13 +70,18 @@ The program committee will favor papers that:
 ## Key Dates {#key-dates}
 
 <div class="key-dates-section">
-
-| &nbsp; | &nbsp; |
-|:---|---:|
-| 📅 **Submission Deadline** | **December 20, 2025** (23:59 AoE) |
-| 📬 **Notification of Acceptance** | **December 27, 2025** |
-| 🎤 **Workshop Date** | **February 1st, 2026** (Full Day) |
-
+  <div class="key-date-row">
+    <span class="key-date-label">📅 Submission Deadline</span>
+    <span class="key-date-value">December 20, 2025 (23:59 AoE)</span>
+  </div>
+  <div class="key-date-row">
+    <span class="key-date-label">📬 Notification of Acceptance</span>
+    <span class="key-date-value">December 27, 2025</span>
+  </div>
+  <div class="key-date-row">
+    <span class="key-date-label">🎤 Workshop Date</span>
+    <span class="key-date-value">February 1st, 2026 (Full Day)</span>
+  </div>
 </div>
 
 ---
@@ -117,61 +122,13 @@ The program committee will favor papers that:
 
 <div class="organizer-item">
   <div class="organizer-photo">
-    <img src="https://safari.ethz.ch/wp-content/uploads/2024/06/onur_mutlu-150x150.jpg" alt="Prof. Onur Mutlu">
+    <img src="https://safari.ethz.ch/wp-content/uploads/2024/06/ismail_yuksel-150x150.jpg" alt="Ismail Emir Yuksel">
   </div>
   <div class="organizer-info">
-    <h4><a href="https://people.inf.ethz.ch/omutlu/" target="_blank">Professor Onur Mutlu</a></h4>
+    <h4><a href="https://ie-yuksel.github.io/" target="_blank">Ismail Emir Yuksel</a></h4>
     <div class="organizer-affiliation">ETH Zürich</div>
-    <p class="organizer-bio">Onur Mutlu is a Professor of Computer Science at ETH Zürich. He is also a faculty member at Carnegie Mellon University. His research interests are in computer architecture, systems, hardware security, and bioinformatics. He is an ACM Fellow, IEEE Fellow, and has received numerous awards for his research. He is passionate about teaching and enabling democratized access to research and education.</p>
-    <div class="organizer-email">📧 <a href="mailto:onur.mutlu@safari.ethz.ch">onur.mutlu@safari.ethz.ch</a></div>
-  </div>
-</div>
-
-<div class="organizer-item">
-  <div class="organizer-photo">
-    <img src="https://safari.ethz.ch/wp-content/uploads/2024/06/mohammad_sadrosadati-150x150.jpg" alt="Dr. Mohammad Sadrosadati">
-  </div>
-  <div class="organizer-info">
-    <h4><a href="https://msadrosadati.github.io/" target="_blank">Dr. Mohammad Sadrosadati</a></h4>
-    <div class="organizer-affiliation">ETH Zürich</div>
-    <p class="organizer-bio">Mohammad Sadrosadati is a Senior Researcher and Lecturer at ETH Zürich, working in the SAFARI Research Group. His research focuses on computer architecture and systems, with a particular emphasis on processing-in-memory, memory systems, and accelerators for machine learning workloads.</p>
-    <div class="organizer-email">📧 <a href="mailto:mohammad.sadrosadati@safari.ethz.ch">mohammad.sadrosadati@safari.ethz.ch</a></div>
-  </div>
-</div>
-
-<div class="organizer-item">
-  <div class="organizer-photo">
-    <img src="https://safari.ethz.ch/wp-content/uploads/2024/06/geraldo_oliveira-150x150.jpg" alt="Dr. Geraldo F. Oliveira">
-  </div>
-  <div class="organizer-info">
-    <h4><a href="https://geraldofojunior.github.io/" target="_blank">Dr. Geraldo F. Oliveira</a></h4>
-    <div class="organizer-affiliation">ETH Zürich</div>
-    <p class="organizer-bio">Geraldo F. Oliveira is a Senior Researcher at ETH Zürich, working in the SAFARI Research Group. His research focuses on processing-in-memory architectures, memory systems, and hardware/software co-design for emerging applications.</p>
-    <div class="organizer-email">📧 <a href="mailto:geraldod@safari.ethz.ch">geraldod@safari.ethz.ch</a></div>
-  </div>
-</div>
-
-<div class="organizer-item">
-  <div class="organizer-photo">
-    <img src="https://safari.ethz.ch/wp-content/uploads/2024/06/zhiheng_yue-150x150.jpg" alt="Dr. Zhiheng Yue">
-  </div>
-  <div class="organizer-info">
-    <h4><a href="https://zhy1995.github.io/" target="_blank">Dr. Zhiheng Yue</a></h4>
-    <div class="organizer-affiliation">ETH Zürich</div>
-    <p class="organizer-bio">Zhiheng Yue is a Postdoctoral Researcher at ETH Zürich, working in the SAFARI Research Group. His research interests include memory systems, processing-in-memory, and computer architecture.</p>
-    <div class="organizer-email">📧 <a href="mailto:zhiheng.yue@safari.ethz.ch">zhiheng.yue@safari.ethz.ch</a></div>
-  </div>
-</div>
-
-<div class="organizer-item">
-  <div class="organizer-photo">
-    <img src="https://safari.ethz.ch/wp-content/uploads/2024/06/ataberk_olgun-150x150.jpg" alt="Ataberk Olgun">
-  </div>
-  <div class="organizer-info">
-    <h4><a href="https://ataberk.me/" target="_blank">Ataberk Olgun</a></h4>
-    <div class="organizer-affiliation">ETH Zürich</div>
-    <p class="organizer-bio">Ataberk Olgun is a PhD candidate at ETH Zürich, working in the SAFARI Research Group. His research focuses on DRAM characterization, processing-in-memory, and memory system reliability.</p>
-    <div class="organizer-email">📧 <a href="mailto:ataberk.olgun@safari.ethz.ch">ataberk.olgun@safari.ethz.ch</a></div>
+    <p class="organizer-bio">Ismail Emir Yuksel is a PhD candidate at ETH Zürich, working in the SAFARI Research Group. His research focuses on processing-in-memory architectures, memory systems, and near-data processing.</p>
+    <div class="organizer-email">📧 <a href="mailto:ismail.yuksel@safari.ethz.ch">ismail.yuksel@safari.ethz.ch</a></div>
   </div>
 </div>
 
@@ -189,13 +146,61 @@ The program committee will favor papers that:
 
 <div class="organizer-item">
   <div class="organizer-photo">
-    <img src="https://safari.ethz.ch/wp-content/uploads/2024/06/ismail_yuksel-150x150.jpg" alt="Ismail Emir Yuksel">
+    <img src="https://safari.ethz.ch/wp-content/uploads/2024/06/ataberk_olgun-150x150.jpg" alt="Ataberk Olgun">
   </div>
   <div class="organizer-info">
-    <h4><a href="https://ie-yuksel.github.io/" target="_blank">Ismail Emir Yuksel</a></h4>
+    <h4><a href="https://ataberk.me/" target="_blank">Ataberk Olgun</a></h4>
     <div class="organizer-affiliation">ETH Zürich</div>
-    <p class="organizer-bio">Ismail Emir Yuksel is a PhD candidate at ETH Zürich, working in the SAFARI Research Group. His research focuses on processing-in-memory architectures, memory systems, and near-data processing.</p>
-    <div class="organizer-email">📧 <a href="mailto:ismail.yuksel@safari.ethz.ch">ismail.yuksel@safari.ethz.ch</a></div>
+    <p class="organizer-bio">Ataberk Olgun is a PhD candidate at ETH Zürich, working in the SAFARI Research Group. His research focuses on DRAM characterization, processing-in-memory, and memory system reliability.</p>
+    <div class="organizer-email">📧 <a href="mailto:ataberk.olgun@safari.ethz.ch">ataberk.olgun@safari.ethz.ch</a></div>
+  </div>
+</div>
+
+<div class="organizer-item">
+  <div class="organizer-photo">
+    <img src="https://safari.ethz.ch/wp-content/uploads/2024/06/zhiheng_yue-150x150.jpg" alt="Dr. Zhiheng Yue">
+  </div>
+  <div class="organizer-info">
+    <h4><a href="https://zhy1995.github.io/" target="_blank">Dr. Zhiheng Yue</a></h4>
+    <div class="organizer-affiliation">ETH Zürich</div>
+    <p class="organizer-bio">Zhiheng Yue is a Postdoctoral Researcher at ETH Zürich, working in the SAFARI Research Group. His research interests include memory systems, processing-in-memory, and computer architecture.</p>
+    <div class="organizer-email">📧 <a href="mailto:zhiheng.yue@safari.ethz.ch">zhiheng.yue@safari.ethz.ch</a></div>
+  </div>
+</div>
+
+<div class="organizer-item">
+  <div class="organizer-photo">
+    <img src="https://safari.ethz.ch/wp-content/uploads/2024/06/geraldo_oliveira-150x150.jpg" alt="Dr. Geraldo F. Oliveira">
+  </div>
+  <div class="organizer-info">
+    <h4><a href="https://geraldofojunior.github.io/" target="_blank">Dr. Geraldo F. Oliveira</a></h4>
+    <div class="organizer-affiliation">ETH Zürich</div>
+    <p class="organizer-bio">Geraldo F. Oliveira is a Senior Researcher at ETH Zürich, working in the SAFARI Research Group. His research focuses on processing-in-memory architectures, memory systems, and hardware/software co-design for emerging applications.</p>
+    <div class="organizer-email">📧 <a href="mailto:geraldod@safari.ethz.ch">geraldod@safari.ethz.ch</a></div>
+  </div>
+</div>
+
+<div class="organizer-item">
+  <div class="organizer-photo">
+    <img src="https://safari.ethz.ch/wp-content/uploads/2024/06/mohammad_sadrosadati-150x150.jpg" alt="Dr. Mohammad Sadrosadati">
+  </div>
+  <div class="organizer-info">
+    <h4><a href="https://msadrosadati.github.io/" target="_blank">Dr. Mohammad Sadrosadati</a></h4>
+    <div class="organizer-affiliation">ETH Zürich</div>
+    <p class="organizer-bio">Mohammad Sadrosadati is a Senior Researcher and Lecturer at ETH Zürich, working in the SAFARI Research Group. His research focuses on computer architecture and systems, with a particular emphasis on processing-in-memory, memory systems, and accelerators for machine learning workloads.</p>
+    <div class="organizer-email">📧 <a href="mailto:mohammad.sadrosadati@safari.ethz.ch">mohammad.sadrosadati@safari.ethz.ch</a></div>
+  </div>
+</div>
+
+<div class="organizer-item">
+  <div class="organizer-photo">
+    <img src="https://safari.ethz.ch/wp-content/uploads/2024/06/onur_mutlu-150x150.jpg" alt="Prof. Onur Mutlu">
+  </div>
+  <div class="organizer-info">
+    <h4><a href="https://people.inf.ethz.ch/omutlu/" target="_blank">Professor Onur Mutlu</a></h4>
+    <div class="organizer-affiliation">ETH Zürich</div>
+    <p class="organizer-bio">Onur Mutlu is a Professor of Computer Science at ETH Zürich. He is also a faculty member at Carnegie Mellon University. His research interests are in computer architecture, systems, hardware security, and bioinformatics. He is an ACM Fellow, IEEE Fellow, and has received numerous awards for his research. He is passionate about teaching and enabling democratized access to research and education.</p>
+    <div class="organizer-email">📧 <a href="mailto:onur.mutlu@safari.ethz.ch">onur.mutlu@safari.ethz.ch</a></div>
   </div>
 </div>
 
