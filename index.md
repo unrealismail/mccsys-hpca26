@@ -7,9 +7,11 @@ layout: default
   <a href="#about">About</a>
   <a href="#call-for-presentations">Call for Presentations</a>
   <a href="#key-dates">Key Dates</a>
-  <a href="#organizers">Organizers</a>
   <a href="#agenda">Agenda</a>
-  <a href="#materials">Materials</a>
+  <a href="#livestream">Livestream</a>
+  <a href="#organizers">Organizers</a>
+  <a href="#past-editions">Past Editions</a>
+  <a href="#venue">Venue</a>
 </div>
 
 <!-- Hero Section -->
@@ -18,6 +20,7 @@ layout: default
   <h1 class="hero-title">MCCSys 2026</h1>
   <h2 class="hero-subtitle">4th Workshop on Memory-Centric Computing Systems</h2>
   <p class="hero-conference">In conjunction with the 32nd International Symposium on<br>High-Performance Computer Architecture (HPCA 2026)</p>
+  <p class="hero-location">📍 Sydney, Australia</p>
   <div class="hero-buttons">
     <a href="https://forms.gle/ZRtrBjfRjQT4FhUS8" class="btn btn-primary" target="_blank">Submit Abstract</a>
     <a href="https://hpca-conf.org/2026/" class="btn btn-secondary" target="_blank">Register Now</a>
@@ -63,72 +66,11 @@ The program committee will favor papers that:
 
 ## Key Dates {#key-dates}
 
-<div class="key-dates-section">
-  <div class="key-date-row">
-    <div class="key-date-label">📅 Submission Deadline</div>
-    <div class="key-date-value">December 20, 2025 (23:59 AoE)</div>
-  </div>
-  <div class="key-date-row">
-    <div class="key-date-label">📬 Notification of Acceptance</div>
-    <div class="key-date-value">December 27, 2025</div>
-  </div>
-  <div class="key-date-row">
-    <div class="key-date-label">🎤 Workshop Date</div>
-    <div class="key-date-value">February 1st, 2026 (Full Day)</div>
-  </div>
-  <div class="key-date-row">
-    <div class="key-date-label">📍 Location</div>
-    <div class="key-date-value">International Convention Centre, Sydney, Australia</div>
-  </div>
-</div>
-
----
-
-## Organizers {#organizers}
-
-<div class="organizers-grid">
-  <div class="organizer-card">
-    <div class="organizer-name">Ismail Emir Yuksel</div>
-    <div class="organizer-affiliation">ETH Zürich</div>
-    <div class="organizer-email"><a href="mailto:ismail.yuksel@safari.ethz.ch">ismail.yuksel@safari.ethz.ch</a></div>
-  </div>
-  
-  <div class="organizer-card">
-    <div class="organizer-name">F. Nisa Bostanci</div>
-    <div class="organizer-affiliation">ETH Zürich</div>
-    <div class="organizer-email"><a href="mailto:nisa.bostanci@safari.ethz.ch">nisa.bostanci@safari.ethz.ch</a></div>
-  </div>
-  
-  <div class="organizer-card">
-    <div class="organizer-name">Ataberk Olgun</div>
-    <div class="organizer-affiliation">ETH Zürich</div>
-    <div class="organizer-email"><a href="mailto:ataberk.olgun@safari.ethz.ch">ataberk.olgun@safari.ethz.ch</a></div>
-  </div>
-  
-  <div class="organizer-card">
-    <div class="organizer-name">Dr. Zhiheng Yue</div>
-    <div class="organizer-affiliation">ETH Zürich</div>
-    <div class="organizer-email"><a href="mailto:zhiheng.yue@safari.ethz.ch">zhiheng.yue@safari.ethz.ch</a></div>
-  </div>
-  
-  <div class="organizer-card">
-    <div class="organizer-name">Dr. Geraldo F. Oliveira</div>
-    <div class="organizer-affiliation">ETH Zürich</div>
-    <div class="organizer-email"><a href="mailto:geraldod@safari.ethz.ch">geraldod@safari.ethz.ch</a></div>
-  </div>
-  
-  <div class="organizer-card">
-    <div class="organizer-name">Dr. Mohammad Sadrosadati</div>
-    <div class="organizer-affiliation">ETH Zürich</div>
-    <div class="organizer-email"><a href="mailto:mohammad.sadrosadati@safari.ethz.ch">mohammad.sadrosadati@safari.ethz.ch</a></div>
-  </div>
-  
-  <div class="organizer-card organizer-card-lead">
-    <div class="organizer-name">Professor Onur Mutlu</div>
-    <div class="organizer-affiliation">ETH Zürich</div>
-    <div class="organizer-email"><a href="mailto:onur.mutlu@safari.ethz.ch">onur.mutlu@safari.ethz.ch</a></div>
-  </div>
-</div>
+| | |
+|---|---|
+| 📅 **Submission Deadline** | December 20, 2025 (23:59 AoE) |
+| 📬 **Notification of Acceptance** | December 27, 2025 |
+| 🎤 **Workshop Date** | February 1st, 2026 (Full Day) |
 
 ---
 
@@ -155,114 +97,92 @@ The program committee will favor papers that:
 
 ---
 
-## Recommended Materials {#materials}
+## Organizers {#organizers}
 
-<div class="materials-section">
+<div class="organizers-section">
 
-### Papers & Publications
-
-<div class="material-item">
-  <strong>A Modern Primer on Processing in Memory</strong><br>
-  Mutlu, O., Ghose, S., Gómez-Luna, J., and Ausavarungnirun, R.<br>
-  <em>In Emerging Computing: From Devices to Systems, 2023</em><br>
-  <a href="https://arxiv.org/pdf/2012.03112" class="material-link" target="_blank">📄 PDF (arXiv)</a>
+<div class="organizer-item">
+  <div class="organizer-photo">
+    <img src="https://safari.ethz.ch/wp-content/uploads/2024/06/onur_mutlu-150x150.jpg" alt="Prof. Onur Mutlu">
+  </div>
+  <div class="organizer-info">
+    <h4><a href="https://people.inf.ethz.ch/omutlu/" target="_blank">Professor Onur Mutlu</a></h4>
+    <div class="organizer-affiliation">ETH Zürich</div>
+    <p class="organizer-bio">Onur Mutlu is a Professor of Computer Science at ETH Zürich. He is also a faculty member at Carnegie Mellon University. His research interests are in computer architecture, systems, hardware security, and bioinformatics. He is an ACM Fellow, IEEE Fellow, and has received numerous awards for his research. He is passionate about teaching and enabling democratized access to research and education.</p>
+    <div class="organizer-email">📧 <a href="mailto:onur.mutlu@safari.ethz.ch">onur.mutlu@safari.ethz.ch</a></div>
+  </div>
 </div>
 
-<div class="material-item">
-  <strong>Benchmarking a New Paradigm: Experimental Analysis and Characterization of a Real Processing-in-Memory System</strong><br>
-  Gómez-Luna, J., El Hajj, I., Fernandez, I., Giannoula, C., Oliveira, G. F., and Mutlu, O.<br>
-  <em>IEEE Access, 2022</em><br>
-  <a href="https://arxiv.org/pdf/2105.03814.pdf" class="material-link" target="_blank">📄 PDF (arXiv)</a>
-  <a href="https://github.com/CMU-SAFARI/prim-benchmarks" class="material-link" target="_blank">💻 GitHub</a>
+<div class="organizer-item">
+  <div class="organizer-photo">
+    <img src="https://safari.ethz.ch/wp-content/uploads/2024/06/mohammad_sadrosadati-150x150.jpg" alt="Dr. Mohammad Sadrosadati">
+  </div>
+  <div class="organizer-info">
+    <h4><a href="https://msadrosadati.github.io/" target="_blank">Dr. Mohammad Sadrosadati</a></h4>
+    <div class="organizer-affiliation">ETH Zürich</div>
+    <p class="organizer-bio">Mohammad Sadrosadati is a Senior Researcher and Lecturer at ETH Zürich, working in the SAFARI Research Group. His research focuses on computer architecture and systems, with a particular emphasis on processing-in-memory, memory systems, and accelerators for machine learning workloads.</p>
+    <div class="organizer-email">📧 <a href="mailto:mohammad.sadrosadati@safari.ethz.ch">mohammad.sadrosadati@safari.ethz.ch</a></div>
+  </div>
 </div>
 
-<div class="material-item">
-  <strong>SparseP: Towards Efficient Sparse Matrix Vector Multiplication on Real Processing-In-Memory Architectures</strong><br>
-  Giannoula, C., Fernandez, I., Gómez-Luna, J., Koziris, N., Goumas, G., and Mutlu, O.<br>
-  <em>SIGMETRICS 2022</em><br>
-  <a href="https://arxiv.org/pdf/2201.05072.pdf" class="material-link" target="_blank">📄 PDF (arXiv)</a>
-  <a href="https://github.com/CMU-SAFARI/SparseP" class="material-link" target="_blank">💻 GitHub</a>
+<div class="organizer-item">
+  <div class="organizer-photo">
+    <img src="https://safari.ethz.ch/wp-content/uploads/2024/06/geraldo_oliveira-150x150.jpg" alt="Dr. Geraldo F. Oliveira">
+  </div>
+  <div class="organizer-info">
+    <h4><a href="https://geraldofojunior.github.io/" target="_blank">Dr. Geraldo F. Oliveira</a></h4>
+    <div class="organizer-affiliation">ETH Zürich</div>
+    <p class="organizer-bio">Geraldo F. Oliveira is a Senior Researcher at ETH Zürich, working in the SAFARI Research Group. His research focuses on processing-in-memory architectures, memory systems, and hardware/software co-design for emerging applications.</p>
+    <div class="organizer-email">📧 <a href="mailto:geraldod@safari.ethz.ch">geraldod@safari.ethz.ch</a></div>
+  </div>
 </div>
 
-<div class="material-item">
-  <strong>PiDRAM: A Holistic End-to-End FPGA-Based Framework for Processing-in-DRAM</strong><br>
-  Olgun, A., Gómez-Luna, J., Kanellopoulos, K., Salami, B., Hassan, H., Ergin, O., and Mutlu, O.<br>
-  <em>ACM TACO, 2022</em><br>
-  <a href="https://arxiv.org/pdf/2111.00082.pdf" class="material-link" target="_blank">📄 PDF (arXiv)</a>
-  <a href="https://github.com/cmu-safari/pidram" class="material-link" target="_blank">💻 GitHub</a>
+<div class="organizer-item">
+  <div class="organizer-photo">
+    <img src="https://safari.ethz.ch/wp-content/uploads/2024/06/zhiheng_yue-150x150.jpg" alt="Dr. Zhiheng Yue">
+  </div>
+  <div class="organizer-info">
+    <h4><a href="https://zhy1995.github.io/" target="_blank">Dr. Zhiheng Yue</a></h4>
+    <div class="organizer-affiliation">ETH Zürich</div>
+    <p class="organizer-bio">Zhiheng Yue is a Postdoctoral Researcher at ETH Zürich, working in the SAFARI Research Group. His research interests include memory systems, processing-in-memory, and computer architecture.</p>
+    <div class="organizer-email">📧 <a href="mailto:zhiheng.yue@safari.ethz.ch">zhiheng.yue@safari.ethz.ch</a></div>
+  </div>
 </div>
 
-<div class="material-item">
-  <strong>DAMOV: A New Methodology and Benchmark Suite for Evaluating Data Movement Bottlenecks</strong><br>
-  Oliveira, G. F., Gómez-Luna, J., Orosa, L., Ghose, S., Vijaykumar, N., Fernandez, I., Sadrosadati, M., Mutlu, O.<br>
-  <em>IEEE Access, 2021</em><br>
-  <a href="https://arxiv.org/pdf/2105.03725.pdf" class="material-link" target="_blank">📄 PDF (arXiv)</a>
-  <a href="https://github.com/CMU-SAFARI/DAMOV" class="material-link" target="_blank">💻 GitHub</a>
+<div class="organizer-item">
+  <div class="organizer-photo">
+    <img src="https://safari.ethz.ch/wp-content/uploads/2024/06/ataberk_olgun-150x150.jpg" alt="Ataberk Olgun">
+  </div>
+  <div class="organizer-info">
+    <h4><a href="https://ataberk.me/" target="_blank">Ataberk Olgun</a></h4>
+    <div class="organizer-affiliation">ETH Zürich</div>
+    <p class="organizer-bio">Ataberk Olgun is a PhD candidate at ETH Zürich, working in the SAFARI Research Group. His research focuses on DRAM characterization, processing-in-memory, and memory system reliability.</p>
+    <div class="organizer-email">📧 <a href="mailto:ataberk.olgun@safari.ethz.ch">ataberk.olgun@safari.ethz.ch</a></div>
+  </div>
 </div>
 
-<div class="material-item">
-  <strong>Ramulator 2.0: A Modern, Modular, and Extensible DRAM Simulator</strong><br>
-  Luo, H., Tu, Y. C., Bostancı, F. N., Olgun, A., Ya, A. G., Mutlu, O.<br>
-  <em>IEEE CAL, 2023</em><br>
-  <a href="https://arxiv.org/pdf/2308.11030.pdf" class="material-link" target="_blank">📄 PDF (arXiv)</a>
-  <a href="https://github.com/CMU-SAFARI/ramulator2" class="material-link" target="_blank">💻 GitHub</a>
+<div class="organizer-item">
+  <div class="organizer-photo">
+    <img src="https://safari.ethz.ch/wp-content/uploads/2024/06/nisa_bostanci-150x150.jpg" alt="F. Nisa Bostanci">
+  </div>
+  <div class="organizer-info">
+    <h4><a href="https://fnisabostanci.github.io/" target="_blank">F. Nisa Bostanci</a></h4>
+    <div class="organizer-affiliation">ETH Zürich</div>
+    <p class="organizer-bio">F. Nisa Bostanci is a PhD candidate at ETH Zürich, working in the SAFARI Research Group. Her research focuses on memory systems, DRAM simulation, and processing-in-memory architectures.</p>
+    <div class="organizer-email">📧 <a href="mailto:nisa.bostanci@safari.ethz.ch">nisa.bostanci@safari.ethz.ch</a></div>
+  </div>
 </div>
 
-<div class="material-item">
-  <strong>DRAM Bender: An Extensible and Versatile FPGA-Based Infrastructure to Easily Test State-of-the-Art DRAM Chips</strong><br>
-  Olgun, A., Hassan, H., Yağlıkçı, A. G., Tuğrul, Y. C., Orosa, L., Luo, H., Patel, M., Ergin, O., Mutlu, O.<br>
-  <em>IEEE CAD, 2023</em><br>
-  <a href="https://arxiv.org/pdf/2211.05838.pdf" class="material-link" target="_blank">📄 PDF (arXiv)</a>
-  <a href="https://github.com/CMU-SAFARI/DRAM-Bender" class="material-link" target="_blank">💻 GitHub</a>
-</div>
-
-<div class="material-item">
-  <strong>MIMDRAM: An End-to-End Processing-Using-DRAM System for High-Throughput, Energy-Efficient and Programmer-Transparent Multiple-Instruction Multiple-Data Computing</strong><br>
-  Oliveira, G. F., Olgun, A., Yaglikci, A. G., Bostanci, N., Gomez-Luna, J., Ghose, S., Mutlu, O.<br>
-  <em>HPCA, 2024</em><br>
-  <a href="https://arxiv.org/pdf/2402.19080.pdf" class="material-link" target="_blank">📄 PDF (arXiv)</a>
-  <a href="https://github.com/CMU-SAFARI/MIMDRAM" class="material-link" target="_blank">💻 GitHub</a>
-</div>
-
-<div class="material-item">
-  <strong>SIMDRAM: An End-to-End Framework for Bit-Serial SIMD Computing in DRAM</strong><br>
-  Hajinazar, N., Oliveira, G. F., Gregorio, S., Ferreira, J. D., Ghiasi, N. M., Patel, M., Alser, M., Ghose, S., Gomez-Luna, J., Mutlu. O.<br>
-  <em>ASPLOS, 2021</em><br>
-  <a href="https://arxiv.org/pdf/2105.12839.pdf" class="material-link" target="_blank">📄 PDF (arXiv)</a>
-  <a href="https://www.youtube.com/watch?v=lu3Br4-kySw" class="material-link" target="_blank">🎬 Talk Video</a>
-</div>
-
-<div class="material-item">
-  <strong>Ambit: In-Memory Accelerator for Bulk Bitwise Operations Using Commodity DRAM Technology</strong><br>
-  Seshadri, V., Lee, D., Mullins, T., Hassan, H., Boroumand, A., Kim, J., Kozuch, M. A., Mutlu, O., Gibbons, P. B., Mowry, T. C.<br>
-  <em>MICRO, 2017</em><br>
-  <a href="https://people.inf.ethz.ch/omutlu/pub/ambit-bulk-bitwise-dram_micro17.pdf" class="material-link" target="_blank">📄 PDF</a>
-</div>
-
-### More Learning Materials
-
-<div class="material-item">
-  <strong>Memory-Centric Computing (IMACAW Keynote Talk at DAC 2023)</strong><br>
-  Mutlu O., July 2023<br>
-  <a href="https://people.inf.ethz.ch/omutlu/pub/onur-IMACAW-Keynote-MemoryCentricComputing-9-July-2023.pdf" class="material-link" target="_blank">📄 PDF</a>
-  <a href="https://www.youtube.com/watch?v=npr5zMEkANQ" class="material-link" target="_blank">🎬 Video</a>
-</div>
-
-<div class="material-item">
-  <strong>Processing-in-Memory: A Workload-Driven Perspective</strong><br>
-  <a href="https://people.inf.ethz.ch/omutlu/pub/processing-in-memory_workload-driven-perspective_IBMjrd19.pdf" class="material-link" target="_blank">📄 PDF</a>
-</div>
-
-<div class="material-item">
-  <strong>Processing Data Where It Makes Sense: Enabling In-Memory Computation</strong><br>
-  <a href="https://people.inf.ethz.ch/omutlu/pub/ProcessingDataWhereItMakesSense_micpro19-invited.pdf" class="material-link" target="_blank">📄 PDF</a>
-</div>
-
-<div class="material-item">
-  <strong>Data-Centric Architectures: Fundamentally Improving Performance and Energy (227-0085-37L)</strong><br>
-  Gómez-Luna, J., and Mutlu, O., ETH Zürich, Fall 2022<br>
-  <a href="https://safari.ethz.ch/projects_and_seminars/fall2022/doku.php?id=processing_in_memory" class="material-link" target="_blank">🌐 Course Website</a>
-  <a href="https://youtube.com/playlist?list=PL5Q2soXY2Zi8KzG2CQYRNQOVD0GOBrnKy" class="material-link" target="_blank">🎬 Lecture Playlist</a>
+<div class="organizer-item">
+  <div class="organizer-photo">
+    <img src="https://safari.ethz.ch/wp-content/uploads/2024/06/ismail_yuksel-150x150.jpg" alt="Ismail Emir Yuksel">
+  </div>
+  <div class="organizer-info">
+    <h4><a href="https://ie-yuksel.github.io/" target="_blank">Ismail Emir Yuksel</a></h4>
+    <div class="organizer-affiliation">ETH Zürich</div>
+    <p class="organizer-bio">Ismail Emir Yuksel is a PhD candidate at ETH Zürich, working in the SAFARI Research Group. His research focuses on processing-in-memory architectures, memory systems, and near-data processing.</p>
+    <div class="organizer-email">📧 <a href="mailto:ismail.yuksel@safari.ethz.ch">ismail.yuksel@safari.ethz.ch</a></div>
+  </div>
 </div>
 
 </div>
@@ -271,10 +191,52 @@ The program committee will favor papers that:
 
 ## Past Editions {#past-editions}
 
-<div class="past-editions">
-  <a href="https://events.safari.ethz.ch/micro24-memorycentric-tutorial/" class="past-edition-link" target="_blank">MCCSys @ MICRO 2024</a>
-  <a href="https://events.safari.ethz.ch/hpca24-MCCSys/" class="past-edition-link" target="_blank">MCCSys @ HPCA 2024</a>
-  <a href="https://events.safari.ethz.ch/isca23-memorycentric-tutorial/" class="past-edition-link" target="_blank">MCCSys @ ISCA 2023</a>
+<div class="past-editions-grid">
+  <div class="past-edition-item">
+    <a href="https://events.safari.ethz.ch/isca25-MCCSys/" target="_blank">3rd Workshop on Memory-Centric Computing Systems (MCCSys)</a>
+    <div class="past-edition-year">ISCA 2025</div>
+  </div>
+  <div class="past-edition-item">
+    <a href="https://events.safari.ethz.ch/ics25-MCCSys/" target="_blank">2nd Workshop on Memory-Centric Computing Systems (MCCSys)</a>
+    <div class="past-edition-year">ICS 2025</div>
+  </div>
+  <div class="past-edition-item">
+    <a href="https://events.safari.ethz.ch/asplos25-MCCSys/" target="_blank">1st Workshop on Memory-Centric Computing Systems (MCCSys)</a>
+    <div class="past-edition-year">ASPLOS 2025</div>
+  </div>
+  <div class="past-edition-item">
+    <a href="https://events.safari.ethz.ch/ppopp25-memorycentric-tutorial/" target="_blank">Tutorial on Memory-Centric Computing Systems</a>
+    <div class="past-edition-year">PPoPP 2025</div>
+  </div>
+  <div class="past-edition-item">
+    <a href="https://events.safari.ethz.ch/micro24-memorycentric-tutorial/" target="_blank">Tutorial on Memory-Centric Computing Systems</a>
+    <div class="past-edition-year">MICRO 2024</div>
+  </div>
+  <div class="past-edition-item">
+    <a href="https://events.safari.ethz.ch/isca24-memorycentric-tutorial/" target="_blank">Memory-Centric Computing Systems</a>
+    <div class="past-edition-year">ISCA 2024</div>
+  </div>
+  <div class="past-edition-item">
+    <a href="https://events.safari.ethz.ch/heart24-memorycentric-tutorial/" target="_blank">Tutorial on Memory-Centric Computing Systems</a>
+    <div class="past-edition-year">HEART 2024</div>
+  </div>
+</div>
+
+---
+
+## Event Location {#venue}
+
+<div class="event-grid">
+  <div class="event-info">
+    <h3>📍 Venue</h3>
+    <p><strong>International Convention Centre Sydney (ICC Sydney)</strong></p>
+    <p>14 Darling Drive<br>Sydney NSW 2000<br>Australia</p>
+    <p>The workshop will be held in conjunction with <a href="https://hpca-conf.org/2026/" target="_blank">HPCA 2026</a>.</p>
+    <p>For registration and accommodation information, please visit the <a href="https://hpca-conf.org/2026/" target="_blank">HPCA 2026 website</a>.</p>
+  </div>
+  <div class="event-map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.7458825647974!2d151.19769231521048!3d-33.87559598065559!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae3c5fcec79d%3A0x9af5c6a88fa1a6e0!2sInternational%20Convention%20Centre%20Sydney!5e0!3m2!1sen!2sch!4v1640000000000!5m2!1sen!2sch" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
 </div>
 
 ---
