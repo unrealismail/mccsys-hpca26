@@ -19,7 +19,7 @@ layout: default
 
 <!-- Hero Section -->
 <div class="hero-section">
-  <div class="hero-date">FEBRUARY 1$^{ST}$, 2026</div>
+  <div class="hero-date">FEBRUARY 1<sup>ST</sup>, 2026</div>
   <h1 class="hero-title">MCCSys 2026</h1>
   <h2 class="hero-subtitle">4th Workshop on Memory-Centric Computing Systems</h2>
   <p class="hero-conference">In conjunction with the 32nd International Symposium on<br>High-Performance Computer Architecture (HPCA 2026)</p>

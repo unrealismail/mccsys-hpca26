@@ -24,7 +24,7 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  font-family: 'Aptos Display', 'Aptos', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
   color: var(--text-color);
   line-height: 1.8;
   font-size: 1.1rem;
@@ -635,48 +635,166 @@ h3 {
 /* Responsive Design */
 @media (max-width: 768px) {
   .hero-section {
-    padding: 3rem 1rem;
+    padding: 2.5rem 1rem;
     margin: -1rem -1rem 1rem -1rem;
+    border-radius: 0 0 20px 20px;
   }
   
   .hero-title {
-    font-size: 2.8rem;
+    font-size: 2.2rem;
+    letter-spacing: 0;
   }
   
   .hero-subtitle {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+  }
+  
+  .hero-date {
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+  }
+  
+  .hero-conference,
+  .hero-location {
+    font-size: 0.9rem;
+  }
+  
+  .hero-buttons {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .btn {
+    width: 100%;
+    max-width: 280px;
+  }
+  
+  /* Nav bar mobile */
+  .nav-bar {
+    padding: 0.6rem 1rem;
+    margin: 0 -1rem 1rem -1rem;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .nav-brand {
+    font-size: 1rem;
+  }
+  
+  .nav-links {
+    justify-content: center;
+  }
+  
+  .nav-links a {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.75rem;
   }
   
   .nav-buttons {
-    padding: 0.8rem 1rem;
+    padding: 0.6rem 1rem;
     margin: 0 -1rem 1rem -1rem;
   }
   
   .nav-buttons a {
-    padding: 0.5rem 1rem;
-    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.8rem;
   }
   
   body {
     font-size: 1rem;
+    line-height: 1.7;
   }
   
   h2 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+    margin-top: 2rem;
+  }
+  
+  h3 {
+    font-size: 1.3rem;
   }
   
   .topics-grid {
     grid-template-columns: 1fr;
   }
   
+  .key-dates-section {
+    padding: 1.5rem;
+  }
+  
   .key-date-row {
     flex-direction: column;
     text-align: center;
-    gap: 0.5rem;
+    gap: 0.3rem;
+    padding: 1rem 0;
+  }
+  
+  .key-date-label {
+    font-size: 0.95rem;
   }
   
   .key-date-value {
     text-align: center;
+    font-size: 1rem;
+  }
+  
+  /* YouTube embed mobile */
+  .youtube-embed {
+    margin: 1rem auto;
+  }
+  
+  .livestream-section {
+    padding: 1.5rem;
+  }
+  
+  .livestream-section h3 {
+    font-size: 1.2rem;
+  }
+  
+  /* Past editions mobile */
+  .past-editions-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .past-edition-item {
+    padding: 1rem;
+  }
+  
+  /* Dates sidebar mobile */
+  .dates-sidebar {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  /* Feature grid mobile */
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .feature-item {
+    padding: 1.5rem;
+  }
+  
+  /* Placeholders mobile */
+  .agenda-placeholder,
+  .speakers-placeholder {
+    padding: 2rem 1rem;
+  }
+  
+  /* Contact section mobile */
+  .contact-section {
+    padding: 1.5rem;
+  }
+  
+  /* Footer mobile */
+  .footer-section {
+    padding: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  /* HR mobile */
+  hr {
+    margin: 2rem 0;
   }
 }
 
@@ -781,7 +899,7 @@ hr {
 }
 
 .organizer-item:hover .organizer-bio {
-  max-height: 300px;
+  max-height: 400px;
   opacity: 1;
   margin-top: 0.75rem;
 }
@@ -872,10 +990,13 @@ hr {
   margin-top: 0.25rem;
 }
 
+/* Additional mobile styles for organizers and event sections */
 @media (max-width: 768px) {
   .organizer-item {
     flex-direction: column;
     text-align: center;
+    padding: 1.25rem;
+    gap: 1rem;
   }
   
   .organizer-photo img {
@@ -883,24 +1004,69 @@ hr {
     height: 80px;
   }
   
+  .organizer-info h4 {
+    font-size: 1.1rem;
+  }
+  
   /* On mobile, bio is always visible since hover doesn't work well */
   .organizer-bio {
     max-height: none;
     opacity: 1;
     margin-top: 0.75rem;
+    font-size: 0.9rem;
   }
   
-  .key-date-row {
-    flex-direction: column;
-    gap: 0.3rem;
-    text-align: center;
-  }
-  
-  .key-date-value {
-    text-align: center;
+  .organizer-email {
+    font-size: 0.85rem;
   }
   
   .event-grid {
     grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .event-info {
+    padding: 1.5rem;
+  }
+  
+  .event-map {
+    min-height: 250px;
+  }
+  
+  .event-map iframe {
+    min-height: 250px;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 1.8rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+  
+  .nav-links a {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.7rem;
+  }
+  
+  h2 {
+    font-size: 1.4rem;
+  }
+  
+  .key-dates-section {
+    padding: 1rem;
+  }
+  
+  .organizer-item {
+    padding: 1rem;
+  }
+  
+  .organizer-photo img {
+    width: 70px;
+    height: 70px;
   }
 }
