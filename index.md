@@ -48,26 +48,6 @@ layout: default
 
 This combined **tutorial and workshop** will focus on the latest advances in PIM technology, spanning both hardware and software. It will include novel PIM ideas, different tools and frameworks for conducting PIM research, and programming techniques and optimization strategies for PIM kernels.
 
-### What to Expect
-
-<div class="feature-grid">
-  <div class="feature-item">
-    <div class="feature-icon">📚</div>
-    <div class="feature-title">Introduction to PIM</div>
-    <div class="feature-desc">A series of lectures and invited talks providing an introduction to PIM, including an overview and rigorous analysis of existing PIM hardware from industry and academia.</div>
-  </div>
-  <div class="feature-item">
-    <div class="feature-icon">💡</div>
-    <div class="feature-title">Research Presentations</div>
-    <div class="feature-desc">We invite the broad PIM research community to submit and present their ongoing work on memory-centric systems.</div>
-  </div>
-  <div class="feature-item">
-    <div class="feature-icon">🏭</div>
-    <div class="feature-title">Industry Insights</div>
-    <div class="feature-desc">Position papers from industry outlining design and process challenges affecting PIM systems, new architectures, or system solutions.</div>
-  </div>
-</div>
-
 ---
 
 ## Call for Presentations {#call-for-presentations}
@@ -78,55 +58,6 @@ The program committee will favor papers that:
 - Bring **new insights** on memory-centric systems or novel PIM-friendly applications
 - Address **key system integration challenges** in academic or industry PIM architectures
 - Put forward **controversial points of view** on the memory-centric execution paradigm
-
-### Topics of Interest
-
-<div class="topics-grid">
-  <div class="topic-item">
-    <span class="topic-bullet">■</span>
-    Design of novel processing-in-memory (PIM) architectures, including system solutions for real state-of-the-art PIM devices
-  </div>
-  <div class="topic-item">
-    <span class="topic-bullet">■</span>
-    Analysis and mapping of novel applications to state-of-the-art PIM systems
-  </div>
-  <div class="topic-item">
-    <span class="topic-bullet">■</span>
-    Programming models and code generation support for PIM
-  </div>
-  <div class="topic-item">
-    <span class="topic-bullet">■</span>
-    Runtime engines for adaptive code and data scheduling, data mapping, access control for PIM systems
-  </div>
-  <div class="topic-item">
-    <span class="topic-bullet">■</span>
-    Memory coherence mechanisms for collaborative host–PIM execution
-  </div>
-  <div class="topic-item">
-    <span class="topic-bullet">■</span>
-    Virtual memory support for a unified host and PIM address space
-  </div>
-  <div class="topic-item">
-    <span class="topic-bullet">■</span>
-    Data structures and algorithms for PIM systems
-  </div>
-  <div class="topic-item">
-    <span class="topic-bullet">■</span>
-    Infrastructures to assess the benefits and feasibility of PIM systems
-  </div>
-  <div class="topic-item">
-    <span class="topic-bullet">■</span>
-    Benchmarks and simulation infrastructures for PIM prototyping
-  </div>
-  <div class="topic-item">
-    <span class="topic-bullet">■</span>
-    Issues related to robustness and security of PIM systems
-  </div>
-  <div class="topic-item">
-    <span class="topic-bullet">■</span>
-    Experimental analysis and benchmarking of real PIM systems
-  </div>
-</div>
 
 ---
 
