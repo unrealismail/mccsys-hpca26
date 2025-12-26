@@ -2,17 +2,20 @@
 layout: default
 ---
 
-<!-- Navigation buttons -->
-<div class="nav-buttons">
-  <a href="#about">About</a>
-  <a href="#call-for-presentations">Call for Presentations</a>
-  <a href="#key-dates">Key Dates</a>
-  <a href="#agenda">Agenda</a>
-  <a href="#livestream">Livestream</a>
-  <a href="#organizers">Organizers</a>
-  <a href="#past-editions">Past Editions</a>
-  <a href="#venue">Venue</a>
-</div>
+<!-- Navigation Bar -->
+<nav class="nav-bar">
+  <a href="#" class="nav-brand">MCCSys@HPCA26</a>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#call-for-presentations">Call for Presentations</a>
+    <a href="#key-dates">Key Dates</a>
+    <a href="#agenda">Agenda</a>
+    <a href="#livestream">Livestream</a>
+    <a href="#organizers">Organizers</a>
+    <a href="#past-editions">Past Editions</a>
+    <a href="#venue">Venue</a>
+  </div>
+</nav>
 
 <!-- Hero Section -->
 <div class="hero-section">
@@ -66,11 +69,15 @@ The program committee will favor papers that:
 
 ## Key Dates {#key-dates}
 
-| | |
-|---|---|
-| 📅 **Submission Deadline** | December 20, 2025 (23:59 AoE) |
-| 📬 **Notification of Acceptance** | December 27, 2025 |
-| 🎤 **Workshop Date** | February 1st, 2026 (Full Day) |
+<div class="key-dates-section">
+
+| &nbsp; | &nbsp; |
+|:---|---:|
+| 📅 **Submission Deadline** | **December 20, 2025** (23:59 AoE) |
+| 📬 **Notification of Acceptance** | **December 27, 2025** |
+| 🎤 **Workshop Date** | **February 1st, 2026** (Full Day) |
+
+</div>
 
 ---
 
@@ -92,7 +99,14 @@ The program committee will favor papers that:
 ## Livestream {#livestream}
 
 <div class="livestream-section">
-  <p>🔴 The workshop will be livestreamed on YouTube. Link will be shared closer to the event.</p>
+  <h3>🔴 Can't attend in person? Join us live!</h3>
+  <p>The workshop will be livestreamed on YouTube. A replay will also be available afterwards.</p>
+  
+  <div class="youtube-embed">
+    <iframe src="https://www.youtube.com/embed/E0f0RmfPzA4" title="MCCSys 2026 Livestream" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+  
+  <a href="https://www.youtube.com/live/E0f0RmfPzA4" class="livestream-link" target="_blank">▶️ Watch on YouTube</a>
 </div>
 
 ---
