@@ -913,6 +913,111 @@ hr {
   color: var(--primary-light) !important;
 }
 
+/* Speakers Section - Similar to Organizers with hover expand */
+.speakers-section {
+  margin: 2rem 0;
+}
+
+.speaker-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  background: var(--bg-light);
+  border-radius: var(--border-radius);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border-left: 4px solid var(--accent-color);
+}
+
+.speaker-item:hover {
+  box-shadow: var(--card-shadow);
+  background: #f3eef8;
+}
+
+.speaker-photo {
+  flex-shrink: 0;
+}
+
+.speaker-photo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--accent-light);
+  transition: all 0.3s ease;
+}
+
+.speaker-item:hover .speaker-photo img {
+  border-color: var(--primary-color);
+}
+
+.speaker-info {
+  flex: 1;
+}
+
+.speaker-info h4 {
+  margin: 0 0 0.3rem 0;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+}
+
+.speaker-info h4 a {
+  color: var(--primary-color) !important;
+  text-decoration: none;
+}
+
+.speaker-info h4 a:hover {
+  text-decoration: underline;
+}
+
+.speaker-affiliation {
+  color: var(--accent-color);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.speaker-talk-title {
+  color: var(--primary-dark);
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  font-style: italic;
+}
+
+/* Bio and Abstract hidden by default, expands on hover */
+.speaker-bio,
+.speaker-abstract {
+  color: var(--text-light);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.4s ease, opacity 0.3s ease, margin 0.3s ease;
+}
+
+.speaker-item:hover .speaker-bio {
+  max-height: 200px;
+  opacity: 1;
+  margin-top: 0.75rem;
+}
+
+.speaker-item:hover .speaker-abstract {
+  max-height: 300px;
+  opacity: 1;
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid rgba(92, 45, 145, 0.15);
+}
+
+.speaker-abstract strong {
+  color: var(--primary-color);
+}
+
 /* Event Location Section */
 .event-section {
   margin: 3rem 0;
@@ -1018,6 +1123,41 @@ hr {
   
   .organizer-email {
     font-size: 0.85rem;
+  }
+  
+  /* Speakers mobile styles */
+  .speaker-item {
+    flex-direction: column;
+    text-align: center;
+    padding: 1.25rem;
+    gap: 1rem;
+  }
+  
+  .speaker-photo img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .speaker-info h4 {
+    font-size: 1.1rem;
+  }
+  
+  .speaker-talk-title {
+    font-size: 0.95rem;
+  }
+  
+  /* On mobile, bio and abstract are always visible */
+  .speaker-bio,
+  .speaker-abstract {
+    max-height: none;
+    opacity: 1;
+    margin-top: 0.75rem;
+    font-size: 0.9rem;
+  }
+  
+  .speaker-abstract {
+    padding-top: 0.75rem;
+    border-top: 1px solid rgba(92, 45, 145, 0.15);
   }
   
   .event-grid {

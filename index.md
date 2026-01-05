@@ -102,8 +102,53 @@ We invite abstract submissions related to (but not limited to) the following top
 
 ### Invited Speakers {#speakers}
 
-<div class="speakers-placeholder">
-  <p><strong>Speakers To Be Announced</strong></p>
+<div class="speakers-section">
+
+<div class="speaker-item">
+  <div class="speaker-photo">
+    <img src="https://via.placeholder.com/150" alt="Dr. Jane Smith">
+  </div>
+  <div class="speaker-info">
+    <h4><a href="https://example.com/janesmith" target="_blank">Dr. Jane Smith</a></h4>
+    <div class="speaker-affiliation">Stanford University</div>
+    <div class="speaker-talk-title">🎤 "Rethinking Memory Hierarchies for the AI Era"</div>
+    <p class="speaker-bio">Dr. Jane Smith is a Professor of Computer Science at Stanford University. Her research focuses on memory systems, computer architecture, and hardware-software co-design. She has published over 100 papers in top venues and received the ACM SIGARCH Maurice Wilkes Award.</p>
+    <div class="speaker-abstract">
+      <strong>Abstract:</strong> As AI workloads continue to dominate computing, traditional memory hierarchies face unprecedented challenges. This talk explores novel approaches to memory system design that can better accommodate the unique access patterns and bandwidth requirements of modern machine learning applications. We will discuss processing-in-memory solutions, near-data computing paradigms, and their implications for future system architectures.
+    </div>
+  </div>
+</div>
+
+<div class="speaker-item">
+  <div class="speaker-photo">
+    <img src="https://via.placeholder.com/150" alt="Prof. Michael Chen">
+  </div>
+  <div class="speaker-info">
+    <h4><a href="https://example.com/michaelchen" target="_blank">Prof. Michael Chen</a></h4>
+    <div class="speaker-affiliation">MIT CSAIL</div>
+    <div class="speaker-talk-title">🎤 "Breaking the Memory Wall: A Hardware-Software Perspective"</div>
+    <p class="speaker-bio">Prof. Michael Chen leads the Advanced Memory Systems Lab at MIT. His work spans DRAM characterization, memory reliability, and emerging memory technologies. He is an IEEE Fellow and has received multiple best paper awards at ISCA, MICRO, and HPCA.</p>
+    <div class="speaker-abstract">
+      <strong>Abstract:</strong> The memory wall remains one of the most significant bottlenecks in modern computing systems. In this talk, we present our recent work on co-designing hardware and software solutions to overcome memory bandwidth and latency limitations. We will showcase practical implementations and real-world performance improvements achieved through intelligent data placement, prefetching, and processing-near-memory techniques.
+    </div>
+  </div>
+</div>
+
+<div class="speaker-item">
+  <div class="speaker-photo">
+    <img src="https://via.placeholder.com/150" alt="Dr. Sarah Johnson">
+  </div>
+  <div class="speaker-info">
+    <h4><a href="https://example.com/sarahjohnson" target="_blank">Dr. Sarah Johnson</a></h4>
+    <div class="speaker-affiliation">Google Research</div>
+    <div class="speaker-talk-title">🎤 "Memory-Centric Computing in Hyperscale Data Centers"</div>
+    <p class="speaker-bio">Dr. Sarah Johnson is a Senior Research Scientist at Google, where she leads efforts on memory system optimization for large-scale data center workloads. She has extensive experience in both academia and industry, having previously held positions at UC Berkeley and Intel Labs.</p>
+    <div class="speaker-abstract">
+      <strong>Abstract:</strong> Hyperscale data centers present unique challenges and opportunities for memory-centric computing. This talk shares insights from deploying processing-in-memory and near-memory computing solutions at scale. We discuss the practical considerations, performance trade-offs, and lessons learned from integrating these technologies into production environments serving billions of users.
+    </div>
+  </div>
+</div>
+
 </div>
 
 ---
