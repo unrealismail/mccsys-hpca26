@@ -143,7 +143,7 @@ We invite abstract submissions related to (but not limited to) the following top
   <div class="speaker-info">
     <h4><a href="https://cfaed.tu-dresden.de/ccc-staff/joao-paulo-cardoso-de-lima" target="_blank">Dr. João Paulo Cardoso de Lima</a></h4>
     <div class="speaker-affiliation">Technische Universität Dresden</div>
-    <div class="speaker-talk-title">"MFault Injection Platform for Processing-using-Memory Architectures"</div>
+    <div class="speaker-talk-title">"Fault Injection Platform for Processing-using-Memory Architectures"</div>
     <p class="speaker-bio"><strong>Short Bio:</strong>  I received my bachelor's degree in Computer Engineering from the Federal University of Santa Catarina (UFSC) in 2017, followed by a master's degree in 2019 and a Ph.D. in Computer Science from the Federal University of Rio Grande do Sul (UFRGS) in 2025. I'm currently a postdoctoral researcher at the Chair for Compiler Construction to research and develop code optimizations for emerging AI systems as part of the ScaDS.AI Dresden/Leipzig center. My main research interests include Processing-in-Memory architectures, system design, hardware/software co-design, design automation tools, compilers, reliability evaluation, and fault tolerance methods. On the application side, I am particularly interested in efficient methods for machine learning algorithms through memory-centric optimizations, whether compiler-driven, hand-tuned, or enabled by domain-specific tools, for energy efficiency.</p>
     <div class="speaker-abstract">
       <strong>Abstract:</strong> 
