@@ -106,45 +106,47 @@ We invite abstract submissions related to (but not limited to) the following top
 
 <div class="speaker-item">
   <div class="speaker-photo">
-    <img src="https://via.placeholder.com/150" alt="Dr. Jane Smith">
+    <img src="https://sites.cc.gatech.edu/home/ada/images/Ada%20Gavrilovska.jpg" alt="Prof. Ada Gavrilovska">
   </div>
   <div class="speaker-info">
-    <h4><a href="https://example.com/janesmith" target="_blank">Dr. Jane Smith</a></h4>
-    <div class="speaker-affiliation">Stanford University</div>
-    <div class="speaker-talk-title">🎤 "Rethinking Memory Hierarchies for the AI Era"</div>
-    <p class="speaker-bio">Dr. Jane Smith is a Professor of Computer Science at Stanford University. Her research focuses on memory systems, computer architecture, and hardware-software co-design. She has published over 100 papers in top venues and received the ACM SIGARCH Maurice Wilkes Award.</p>
+    <h4><a href="https://sites.cc.gatech.edu/home/ada/" target="_blank">Prof. Ada Gavrilovska</a></h4>
+    <div class="speaker-affiliation">Georgia Institute of Technology</div>
+    <div class="speaker-talk-title">"Offloading to CXL Computational Memory"</div>
+    <p class="speaker-bio"><strong>Short Bio:</strong> Ada Gavrilovska is a Professor in the School of Computer Science at Georgia Tech. Her research is focused on designing systems for emerging technologies, and she develops new systems software solutions in response to new hardware, applications, and use cases. Her past research has considered the impact on systems software from programmable network processors, high-performance interconnects, multi/manycores, virtualization and cloud computing. Her recent research is driven by two major trends rooted in the exponential growth in demand for data and for ever-faster insights from such data – the proliferation of new memory system designs, and the shift to edge computing. She has served as program or general chair for OSDI’24, SOCC’22, HPDC’22, USENIX ATC’20, as an Associate Editor for the IEEE Transactions on Cloud Computing and the ACM Transactions of Computer Systems. Gavrilovska’s research has been supported by the NSF, the Department of Energy, the Semiconductor Research Corporation, and by multiple industry awards, including from Cisco, HPE, IBM, Intel, Intercontinental Exchange, LexisNexis, VMware, and others. She is currently a PI and Systems Software co-lead in the SRC/DARPA center for Processing with Intelligent Storage and Memories (PRISM).</p>
     <div class="speaker-abstract">
-      <strong>Abstract:</strong> As AI workloads continue to dominate computing, traditional memory hierarchies face unprecedented challenges. This talk explores novel approaches to memory system design that can better accommodate the unique access patterns and bandwidth requirements of modern machine learning applications. We will discuss processing-in-memory solutions, near-data computing paradigms, and their implications for future system architectures.
+      <strong>Abstract:</strong> CXL-based Computational Memory (CCM) enables near-memory processing within expanded remote memory, and presents opportunities to address data movement costs associated with disaggregated memory systems and to accelerate overall performance. However, existing models for operation offload are limited in their ability to leverage the tradeoffs associated with different CXL protocols. This talk first examines these tradeoffs and demonstrates their impact on end-to-end performance and system efficiency for workloads with diverse data and processing requirements. Next, we will present a new proposal for an ‘Asynchronous Back-Streaming’ protocol which carefully layers data and control transfer operations on top of the underlying CXL protocols. We will describe a new system that realizes the asynchronous back-streaming model that supports asynchronous data movement and lightweight pipelining in host-CCM interactions. Experimental results show that the approach reduces end-to-end runtime by up to 50.4%, and CCM and host idle times by average 22.11× and 3.85×, respectively. This talk is based on the following preprint: https://arxiv.org/pdf/2512.04449
     </div>
   </div>
 </div>
 
 <div class="speaker-item">
   <div class="speaker-photo">
-    <img src="https://via.placeholder.com/150" alt="Prof. Michael Chen">
+    <img src="https://experts.illinois.edu/en/persons/saugata-ghose/" alt="Prof. Saugata Ghose">
   </div>
   <div class="speaker-info">
-    <h4><a href="https://example.com/michaelchen" target="_blank">Prof. Michael Chen</a></h4>
-    <div class="speaker-affiliation">MIT CSAIL</div>
-    <div class="speaker-talk-title">🎤 "Breaking the Memory Wall: A Hardware-Software Perspective"</div>
-    <p class="speaker-bio">Prof. Michael Chen leads the Advanced Memory Systems Lab at MIT. His work spans DRAM characterization, memory reliability, and emerging memory technologies. He is an IEEE Fellow and has received multiple best paper awards at ISCA, MICRO, and HPCA.</p>
+    <h4><a href="https://ghose.cs.illinois.edu/" target="_blank">Prof. Saugata Ghose</a></h4>
+    <div class="speaker-affiliation">University of Illinois Urbana-Champaign</div>
+    <div class="speaker-talk-title">"MASTODON: Enabling Early-Stage Cross-Stack Simulation for Processing Using Memory Systems"</div>
+    <p class="speaker-bio"><strong>Short Bio:</strong> Saugata Ghose is an assistant professor in Computing and Data Science at the University of Illinois Urbana-Champaign, where he leads the ARCANA Research Group. His research interests include data-centric computer architectures and systems, new interfaces between systems software and hardware architectures, and architectures for emerging platforms and application domains. He holds M.S. and Ph.D. degrees from Cornell University, and dual B.S. degrees from Binghamton University. Among his awards, he was named an Intel Rising Star, has been inducted into the ISCA and HPCA Halls of Fame, and was a Wimmer Faculty Fellow while at Carnegie Mellon University. For more information, please visit his website at https://ghose.cs.illinois.edu/</p>
     <div class="speaker-abstract">
-      <strong>Abstract:</strong> The memory wall remains one of the most significant bottlenecks in modern computing systems. In this talk, we present our recent work on co-designing hardware and software solutions to overcome memory bandwidth and latency limitations. We will showcase practical implementations and real-world performance improvements achieved through intelligent data placement, prefetching, and processing-near-memory techniques.
+      <strong>Abstract:</strong> Processing Using Memory (PUM) systems have attracted significant research attention over the past decade as a potential solution to the data movement bottlenecks in modern systems. Despite this research interest, there continues to be a disconnect between the device and the architecture communities working on PUM, even as we recognize the need to co-design devices, circuits, and architectures to achieve viable end products. This results in a slow and serialized design cycle: device physicists keep improving a “hero” device until it’s mature, and only after that do architects see an appealing-enough device and try to design an (often overly optimistic and impractical) architecture. True collaborative co-design, if it happens, comes years after the initial devices work, leading to many failed devices and architectures.
+      
+      We aim to avoid these pitfalls of designing isolated devices and hero-device-based architectures, which can ignore issues such as manufacturing variability, cycle-to-cycle variation, aggregated faults, and data lifetimes, among other issues. To that end, we have been developing MASTODON, a cross-stack simulator that can directly take in Verilog-A models developed by device physicists, including both early-stage models and mature models, and can capture the potential of these devices at scale. This includes modeling array topologies, interconnects, device drivers and peripherals, parasitics, and read/write/in-memory logic functions, all while executing end-to-end applications and supporting multiple control path models. MASTODON enables application-to-device studies with orders of magnitude simulation speed improvements over industrial SPICE-based simulation, with minimal error. We hope to demonstrate how MASTODON can help usher in needed cross-stack collaboration to bring PUM architectures closer to reality.
     </div>
   </div>
 </div>
 
 <div class="speaker-item">
   <div class="speaker-photo">
-    <img src="https://via.placeholder.com/150" alt="Dr. Sarah Johnson">
+    <img src="https://cfaed.tu-dresden.de/files/Images/people/chair-cc/pictures/staff/jpcl-staff.png" alt="Dr. João Paulo Cardoso de Lima">
   </div>
   <div class="speaker-info">
-    <h4><a href="https://example.com/sarahjohnson" target="_blank">Dr. Sarah Johnson</a></h4>
-    <div class="speaker-affiliation">Google Research</div>
-    <div class="speaker-talk-title">🎤 "Memory-Centric Computing in Hyperscale Data Centers"</div>
-    <p class="speaker-bio">Dr. Sarah Johnson is a Senior Research Scientist at Google, where she leads efforts on memory system optimization for large-scale data center workloads. She has extensive experience in both academia and industry, having previously held positions at UC Berkeley and Intel Labs.</p>
+    <h4><a href="https://cfaed.tu-dresden.de/ccc-staff/joao-paulo-cardoso-de-lima" target="_blank">Dr. João Paulo Cardoso de Lima</a></h4>
+    <div class="speaker-affiliation">Technische Universität Dresden</div>
+    <div class="speaker-talk-title">"MFault Injection Platform for Processing-using-Memory Architectures"</div>
+    <p class="speaker-bio"><strong>Short Bio:</strong>  I received my bachelor's degree in Computer Engineering from the Federal University of Santa Catarina (UFSC) in 2017, followed by a master's degree in 2019 and a Ph.D. in Computer Science from the Federal University of Rio Grande do Sul (UFRGS) in 2025. I'm currently a postdoctoral researcher at the Chair for Compiler Construction to research and develop code optimizations for emerging AI systems as part of the ScaDS.AI Dresden/Leipzig center. My main research interests include Processing-in-Memory architectures, system design, hardware/software co-design, design automation tools, compilers, reliability evaluation, and fault tolerance methods. On the application side, I am particularly interested in efficient methods for machine learning algorithms through memory-centric optimizations, whether compiler-driven, hand-tuned, or enabled by domain-specific tools, for energy efficiency.</p>
     <div class="speaker-abstract">
-      <strong>Abstract:</strong> Hyperscale data centers present unique challenges and opportunities for memory-centric computing. This talk shares insights from deploying processing-in-memory and near-memory computing solutions at scale. We discuss the practical considerations, performance trade-offs, and lessons learned from integrating these technologies into production environments serving billions of users.
+      <strong>Abstract:</strong> 
     </div>
   </div>
 </div>
