@@ -121,7 +121,7 @@ We invite abstract submissions related to (but not limited to) the following top
 
 <div class="speaker-item">
   <div class="speaker-photo">
-    <img src="https://experts.illinois.edu/en/persons/saugata-ghose/" alt="Prof. Saugata Ghose">
+    <img src="https://experts.illinois.edu/files-asset/367076017/headshot.png?w=160&f=webp" alt="Prof. Saugata Ghose">
   </div>
   <div class="speaker-info">
     <h4><a href="https://ghose.cs.illinois.edu/" target="_blank">Prof. Saugata Ghose</a></h4>
