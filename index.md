@@ -108,76 +108,76 @@ We invite abstract submissions related to (but not limited to) the following top
       <td class="time-cell">08:45 – 08:55</td>
       <td class="talk-cell">
         <div class="talk-title">Logistics/Welcome</div>
-        <div class="talk-speaker">Ismail</div>
+        <div class="talk-speaker"><a href="#organizer-ismail">Ismail Emir Yuksel</a></div>
       </td>
     </tr>
     <tr>
       <td class="time-cell">08:55 – 09:55</td>
       <td class="talk-cell">
-        <div class="talk-title">Onur's Talk</div>
-        <div class="talk-speaker">Onur</div>
+        <div class="talk-title">Memory-Centric Computing</div>
+        <div class="talk-speaker"><a href="#organizer-onur">Prof. Onur Mutlu</a></div>
       </td>
     </tr>
     <tr>
       <td class="time-cell">09:55 – 10:30</td>
       <td class="talk-cell">
-        <div class="talk-title">Talk-1</div>
-        <div class="talk-speaker">Ismail</div>
+        <div class="talk-title">Processing-using-Memory in Real DRAM Chips</div>
+        <div class="talk-speaker"><a href="#organizer-ismail">Ismail Emir Yuksel</a></div>
       </td>
     </tr>
     <tr class="break-row">
       <td class="time-cell">10:30 – 11:00</td>
-      <td class="break-cell">☕ Coffee Break</td>
+      <td class="break-cell">Coffee Break</td>
     </tr>
     <tr>
       <td class="time-cell">11:00 – 11:35</td>
       <td class="talk-cell">
         <div class="talk-title">MASTODON: Enabling Early-Stage Cross-Stack Simulation for Processing Using Memory Systems</div>
-        <div class="talk-speaker">Saugata</div>
+        <div class="talk-speaker"><a href="#speaker-saugata">Prof. Saugata Ghose</a></div>
       </td>
     </tr>
     <tr>
       <td class="time-cell">11:35 – 12:10</td>
       <td class="talk-cell">
         <div class="talk-title">Fault Injection Platform for Processing-using-Memory Architectures</div>
-        <div class="talk-speaker">Joao</div>
+        <div class="talk-speaker"><a href="#speaker-joao">Dr. João Paulo Cardoso de Lima</a></div>
       </td>
     </tr>
     <tr>
       <td class="time-cell">12:10 – 12:45</td>
       <td class="talk-cell">
-        <div class="talk-title">Talk-4</div>
-        <div class="talk-speaker">Rakesh</div>
+        <div class="talk-title">CIPHERMATCH: Accelerating Homomorphic Encryption-Based String Matching via Memory-Efficient Data Packing and In-Flash Processing</div>
+        <div class="talk-speaker">Rakesh Nadig</div>
       </td>
     </tr>
     <tr class="break-row">
       <td class="time-cell">12:45 – 13:45</td>
-      <td class="break-cell">🍽️ Lunch Break</td>
+      <td class="break-cell">Lunch Break</td>
     </tr>
     <tr>
       <td class="time-cell">13:45 – 14:20</td>
       <td class="talk-cell">
         <div class="talk-title">Offloading to CXL Computational Memory</div>
-        <div class="talk-speaker">Ada</div>
+        <div class="talk-speaker"><a href="#speaker-ada">Prof. Ada Gavrilovska</a></div>
       </td>
     </tr>
     <tr>
       <td class="time-cell">14:20 – 14:55</td>
       <td class="talk-cell">
-        <div class="talk-title">Talk-6</div>
-        <div class="talk-speaker">Dongjae</div>
+        <div class="talk-title">Architectural and System Software Support for PIM Integrated Systems</div>
+        <div class="talk-speaker">Dongjae Lee</div>
       </td>
     </tr>
     <tr>
       <td class="time-cell">14:55 – 15:30</td>
       <td class="talk-cell">
         <div class="talk-title">Talk-7</div>
-        <div class="talk-speaker">Nisa</div>
+        <div class="talk-speaker"><a href="#organizer-nisa">Nisa Bostanci</a></div>
       </td>
     </tr>
     <tr class="break-row">
       <td class="time-cell">15:30 – 16:00</td>
-      <td class="break-cell">☕ Coffee Break</td>
+      <td class="break-cell">Coffee Break</td>
     </tr>
     <tr>
       <td class="time-cell">16:00 – 16:35</td>
@@ -208,7 +208,7 @@ We invite abstract submissions related to (but not limited to) the following top
 
 <div class="speakers-section">
 
-<div class="speaker-item">
+<div class="speaker-item" id="speaker-ada">
   <div class="speaker-photo">
     <img src="https://sites.cc.gatech.edu/home/ada/images/Ada%20Gavrilovska.jpg" alt="Prof. Ada Gavrilovska">
   </div>
@@ -223,7 +223,7 @@ We invite abstract submissions related to (but not limited to) the following top
   </div>
 </div>
 
-<div class="speaker-item">
+<div class="speaker-item" id="speaker-saugata">
   <div class="speaker-photo">
     <img src="https://experts.illinois.edu/files-asset/367076017/headshot.png?w=160&f=webp" alt="Prof. Saugata Ghose">
   </div>
@@ -240,7 +240,7 @@ We invite abstract submissions related to (but not limited to) the following top
   </div>
 </div>
 
-<div class="speaker-item">
+<div class="speaker-item" id="speaker-joao">
   <div class="speaker-photo">
     <img src="https://cfaed.tu-dresden.de/files/Images/people/chair-cc/pictures/staff/jpcl-staff.png" alt="Dr. João Paulo Cardoso de Lima">
   </div>
@@ -311,7 +311,7 @@ We invite abstract submissions related to (but not limited to) the following top
 
 <div class="organizers-section">
 
-<div class="organizer-item">
+<div class="organizer-item" id="organizer-ismail">
   <div class="organizer-photo">
     <img src="https://kratos4.ethz.ch/wp-content/uploads/photo_ismail.png" alt="Ismail Emir Yuksel">
   </div>
@@ -323,7 +323,7 @@ We invite abstract submissions related to (but not limited to) the following top
   </div>
 </div>
 
-<div class="organizer-item">
+<div class="organizer-item" id="organizer-nisa">
   <div class="organizer-photo">
     <img src="https://safari.ethz.ch/wp-content/uploads/nisa-linkedIN.jpeg" alt="F. Nisa Bostanci">
   </div>
@@ -387,7 +387,7 @@ We invite abstract submissions related to (but not limited to) the following top
 </div>
 
 
-<div class="organizer-item">
+<div class="organizer-item" id="organizer-onur">
   <div class="organizer-photo">
     <img src="https://kratos4.ethz.ch/wp-content/uploads/omutlu-crop.jpg" alt="Prof. Onur Mutlu">
   </div>

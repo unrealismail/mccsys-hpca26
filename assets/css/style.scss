@@ -569,6 +569,17 @@ h3 {
   font-weight: 500;
 }
 
+.talk-speaker a {
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.talk-speaker a:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
 .materials-cell {
   text-align: center;
   color: var(--text-light);
