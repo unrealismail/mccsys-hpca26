@@ -509,24 +509,20 @@ h3 {
 }
 
 .agenda-table th {
-  padding: 1rem 1.25rem;
+  padding: 1.1rem 1.5rem;
   text-align: left;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.15rem;
   letter-spacing: 0.5px;
 }
 
 .agenda-table th.col-time {
-  width: 130px;
+  width: 150px;
+  text-align: center;
 }
 
 .agenda-table th.col-talk {
   width: auto;
-}
-
-.agenda-table th.col-materials {
-  width: 140px;
-  text-align: center;
 }
 
 .agenda-table tbody tr {
@@ -543,7 +539,7 @@ h3 {
 }
 
 .agenda-table td {
-  padding: 1rem 1.25rem;
+  padding: 1.1rem 1.5rem;
   vertical-align: middle;
 }
 
@@ -551,23 +547,25 @@ h3 {
   font-weight: 600;
   color: var(--primary-color);
   white-space: nowrap;
-  font-size: 0.95rem;
+  font-size: 1.1rem;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .talk-cell {
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 .talk-title {
   font-weight: 600;
   color: var(--text-color);
-  font-size: 1rem;
-  margin-bottom: 0.25rem;
+  font-size: 1.15rem;
+  margin-bottom: 0.3rem;
 }
 
 .talk-speaker {
   color: var(--accent-color);
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 500;
 }
 
@@ -607,41 +605,36 @@ h3 {
   text-align: center !important;
   font-weight: 600;
   color: var(--primary-light);
-  font-size: 0.95rem;
-  padding: 0.9rem 1.25rem;
+  font-size: 1.05rem;
+  padding: 1rem 1.5rem;
 }
 
 /* Agenda table mobile */
 @media (max-width: 768px) {
   .agenda-table th,
   .agenda-table td {
-    padding: 0.75rem 0.6rem;
-    font-size: 0.85rem;
+    padding: 0.85rem 0.75rem;
+    font-size: 0.95rem;
   }
   
   .agenda-table th.col-time {
-    width: 90px;
-  }
-  
-  .agenda-table th.col-materials {
-    width: 90px;
+    width: 100px;
   }
   
   .time-cell {
-    font-size: 0.8rem;
-  }
-  
-  .talk-title {
     font-size: 0.9rem;
   }
   
-  .talk-speaker {
-    font-size: 0.8rem;
+  .talk-title {
+    font-size: 1rem;
   }
   
-  .material-btn {
-    padding: 0.3rem 0.6rem;
-    font-size: 0.7rem;
+  .talk-speaker {
+    font-size: 0.9rem;
+  }
+  
+  .break-cell {
+    font-size: 0.95rem;
   }
 }
 

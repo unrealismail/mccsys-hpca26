@@ -101,7 +101,6 @@ We invite abstract submissions related to (but not limited to) the following top
     <tr>
       <th class="col-time">Time</th>
       <th class="col-talk">Talk</th>
-      <th class="col-materials">Materials</th>
     </tr>
   </thead>
   <tbody>
@@ -111,7 +110,6 @@ We invite abstract submissions related to (but not limited to) the following top
         <div class="talk-title">Logistics/Welcome</div>
         <div class="talk-speaker">Ismail</div>
       </td>
-      <td class="materials-cell">—</td>
     </tr>
     <tr>
       <td class="time-cell">08:55 – 09:55</td>
@@ -119,7 +117,6 @@ We invite abstract submissions related to (but not limited to) the following top
         <div class="talk-title">Onur's Talk</div>
         <div class="talk-speaker">Onur</div>
       </td>
-      <td class="materials-cell">—</td>
     </tr>
     <tr>
       <td class="time-cell">09:55 – 10:30</td>
@@ -127,11 +124,10 @@ We invite abstract submissions related to (but not limited to) the following top
         <div class="talk-title">Talk-1</div>
         <div class="talk-speaker">Ismail</div>
       </td>
-      <td class="materials-cell">—</td>
     </tr>
     <tr class="break-row">
       <td class="time-cell">10:30 – 11:00</td>
-      <td class="break-cell" colspan="2">☕ Coffee Break</td>
+      <td class="break-cell">☕ Coffee Break</td>
     </tr>
     <tr>
       <td class="time-cell">11:00 – 11:35</td>
@@ -139,7 +135,6 @@ We invite abstract submissions related to (but not limited to) the following top
         <div class="talk-title">MASTODON: Enabling Early-Stage Cross-Stack Simulation for Processing Using Memory Systems</div>
         <div class="talk-speaker">Saugata</div>
       </td>
-      <td class="materials-cell">—</td>
     </tr>
     <tr>
       <td class="time-cell">11:35 – 12:10</td>
@@ -147,7 +142,6 @@ We invite abstract submissions related to (but not limited to) the following top
         <div class="talk-title">Fault Injection Platform for Processing-using-Memory Architectures</div>
         <div class="talk-speaker">Joao</div>
       </td>
-      <td class="materials-cell">—</td>
     </tr>
     <tr>
       <td class="time-cell">12:10 – 12:45</td>
@@ -155,11 +149,10 @@ We invite abstract submissions related to (but not limited to) the following top
         <div class="talk-title">Talk-4</div>
         <div class="talk-speaker">Rakesh</div>
       </td>
-      <td class="materials-cell"><a href="#" class="material-btn">CIPHERMATCH</a></td>
     </tr>
     <tr class="break-row">
       <td class="time-cell">12:45 – 13:45</td>
-      <td class="break-cell" colspan="2">🍽️ Lunch Break</td>
+      <td class="break-cell">🍽️ Lunch Break</td>
     </tr>
     <tr>
       <td class="time-cell">13:45 – 14:20</td>
@@ -167,7 +160,6 @@ We invite abstract submissions related to (but not limited to) the following top
         <div class="talk-title">Offloading to CXL Computational Memory</div>
         <div class="talk-speaker">Ada</div>
       </td>
-      <td class="materials-cell">—</td>
     </tr>
     <tr>
       <td class="time-cell">14:20 – 14:55</td>
@@ -175,7 +167,6 @@ We invite abstract submissions related to (but not limited to) the following top
         <div class="talk-title">Talk-6</div>
         <div class="talk-speaker">Dongjae</div>
       </td>
-      <td class="materials-cell">—</td>
     </tr>
     <tr>
       <td class="time-cell">14:55 – 15:30</td>
@@ -183,11 +174,10 @@ We invite abstract submissions related to (but not limited to) the following top
         <div class="talk-title">Talk-7</div>
         <div class="talk-speaker">Nisa</div>
       </td>
-      <td class="materials-cell"><a href="#" class="material-btn">IMPACT</a></td>
     </tr>
     <tr class="break-row">
       <td class="time-cell">15:30 – 16:00</td>
-      <td class="break-cell" colspan="2">☕ Coffee Break</td>
+      <td class="break-cell">☕ Coffee Break</td>
     </tr>
     <tr>
       <td class="time-cell">16:00 – 16:35</td>
@@ -195,7 +185,6 @@ We invite abstract submissions related to (but not limited to) the following top
         <div class="talk-title">PIMphony: Overcoming Bandwidth and Capacity Inefficiency in PIM-based Long-Context LLM Inference System</div>
         <div class="talk-speaker">Talk-8</div>
       </td>
-      <td class="materials-cell">—</td>
     </tr>
     <tr>
       <td class="time-cell">16:35 – 17:10</td>
@@ -203,7 +192,6 @@ We invite abstract submissions related to (but not limited to) the following top
         <div class="talk-title">Storage-Centric Overview</div>
         <div class="talk-speaker">Nika</div>
       </td>
-      <td class="materials-cell">—</td>
     </tr>
     <tr>
       <td class="time-cell">17:10 – 17:45</td>
@@ -211,7 +199,6 @@ We invite abstract submissions related to (but not limited to) the following top
         <div class="talk-title">Talk-10</div>
         <div class="talk-speaker">Konstantina</div>
       </td>
-      <td class="materials-cell"><a href="#" class="material-btn">MARS</a></td>
     </tr>
   </tbody>
 </table>
@@ -267,6 +254,39 @@ We invite abstract submissions related to (but not limited to) the following top
     </div>
   </div>
 </div>
+
+
+<div class="speaker-item">
+  <div class="speaker-photo">
+    <img src="https://lh3.googleusercontent.com/sitesv/AAzXCkcd61hNpiTQLj69mMiYIcMWiRv8xDDLJw6AKI3FSruK9nNpQxTGWrgJ_8ByZRVWEObpbXyYh2w54oFgH5mOnCansNCIhdEAqB9nBNTW6iG7QwSP8aNsSuoO15MzMLg2Op52JATlDPPqw9TUTvcE7_RG459iyxI63oS_SkA7iNitjIDwdvUSd-mrmXYl-5NJDMHOOOTeeTaK-v9d6vU4vYjoFgaTbaxXZBzw=w1280" alt="Dongjae Lee">
+  </div>
+  <div class="speaker-info">
+    <h4><a href="https://sites.google.com/view/dongjaelee/" target="_blank">Dongjae Lee</a></h4>
+    <div class="speaker-affiliation">Korea Advanced Institute of Science & Technology (KAIST)</div>
+    <div class="speaker-talk-title">"Architectural and System Software Support for PIM Integrated Systems"</div>
+    <p class="speaker-bio"><strong>Short Bio:</strong> Dongjae Lee is a third-year Ph.D. student at KAIST, advised by Professor Minsoo Rhu. He received his B.S. degree in Electrical Engineering from Korea University and his M.S. from KAIST. His research primarily focuses on system-level support for processing-in-memory (PIM) architectures. For more information, please visit his website (<a href="https://sites.google.com/view/dongjaelee/" target="_blank">https://sites.google.com/view/dongjaelee/</a>).</p>
+    <div class="speaker-abstract">
+      <strong>Abstract:</strong> Processing-in-Memory (PIM) is a promising solution for memory-intensive workloads, yet its adoption remains limited by system-level bottlenecks in data movement and memory management. This talk explores two critical pillars of PIM integration. First, we address host-to-PIM transfer overheads, which we identified through a detailed characterization of real-world PIM systems. To mitigate these overheads, we propose PIM-MMU, a hardware/software co-design featuring a dedicated copy engine and heterogeneity-aware mapping. This design significantly improves both throughput and energy efficiency. Second, because dynamic allocation is currently not adequately supported on PIM devices, we introduce PIM-malloc, a fast and scalable memory allocator for general-purpose PIM hardware. Our evaluation across representative workloads demonstrates that PIM-malloc effectively enhances system performance and programmability.
+    </div>
+  </div>
+</div>
+
+
+<div class="speaker-item">
+  <div class="speaker-photo">
+    <img src="https://lh3.googleusercontent.com/sitesv/AAzXCkeH_Cf9GZy6pP0AUemPXckT48p4ZF0vJnKum_igHlupS0q-CeKc84lA9WxCaa-BMaBVQ0Qq7_UWstEwuoR-g2zFUMmiXiXUEex1Xx74XAgn13vCjzsU2fzH8vwH1wokjZLAu0gcT_XridbGWalmRYv-naXqRL_P9wKNcq4Rm6LkMYdOwGr6QlJW1abjSDwobAdZPuR7t6El5W87L3UHPEmTKHiyPdUdZ3pkEDI=w1280" alt="Kyungmo Koo">
+  </div>
+  <div class="speaker-info">
+    <h4><a href="https://sites.google.com/view/aihalab/" target="_blank">Kyungmo Koo</a></h4>
+    <div class="speaker-affiliation">Hanyang University</div>
+    <div class="speaker-talk-title">"Talk Title"</div>
+    <p class="speaker-bio"><strong>Short Bio:</strong>.</p>
+    <div class="speaker-abstract">
+      <strong>Abstract:</strong>
+    </div>
+  </div>
+</div>
+
 
 </div>
 
