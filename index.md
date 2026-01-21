@@ -165,7 +165,7 @@ We invite abstract submissions related to (but not limited to) the following top
       <td class="time-cell">14:20 – 14:55</td>
       <td class="talk-cell">
         <div class="talk-title">Architectural and System Software Support for PIM Integrated Systems</div>
-        <div class="talk-speaker">Dongjae Lee</div>
+        <div class="talk-speaker"><a href="#speaker-dongjae">Dongjae Lee</a></div>
       </td>
     </tr>
     <tr>
@@ -182,22 +182,29 @@ We invite abstract submissions related to (but not limited to) the following top
     <tr>
       <td class="time-cell">16:00 – 16:35</td>
       <td class="talk-cell">
-        <div class="talk-title">PIMphony: Overcoming Bandwidth and Capacity Inefficiency in PIM-based Long-Context LLM Inference System</div>
-        <div class="talk-speaker">Talk-8</div>
+        <div class="talk-title">Talk Title (Soon)</div>
+        <div class="talk-speaker"><a href="#speaker-kyungmo">Kyungmo Koo</a></div>
       </td>
     </tr>
     <tr>
-      <td class="time-cell">16:35 – 17:10</td>
+      <td class="time-cell">16:35 – 17:05</td>
       <td class="talk-cell">
-        <div class="talk-title">Storage-Centric Overview</div>
-        <div class="talk-speaker">Nika</div>
+        <div class="talk-title">Storage-Centric Systems for Genomics and Metagenomics</div>
+        <div class="talk-speaker">Nika Mansouri Ghiasi</div>
       </td>
     </tr>
     <tr>
-      <td class="time-cell">17:10 – 17:45</td>
+      <td class="time-cell">17:05 – 17:35</td>
       <td class="talk-cell">
-        <div class="talk-title">Talk-10</div>
-        <div class="talk-speaker">Konstantina</div>
+        <div class="talk-title">MARS: Processing-In-Memory Acceleration of Raw Signal Genome Analysis Inside the Storage Subsystem</div>
+        <div class="talk-speaker">Dr. Konstantina Koliogeorgi</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="time-cell">17:35 – 17:45</td>
+      <td class="talk-cell">
+        <div class="talk-title">Closing Remarks</div>
+        <div class="talk-speaker"><a href="#organizer-ismail">Ismail Emir Yuksel</a></div>
       </td>
     </tr>
   </tbody>
@@ -256,7 +263,7 @@ We invite abstract submissions related to (but not limited to) the following top
 </div>
 
 
-<div class="speaker-item">
+<div class="speaker-item" id="speaker-dongjae">
   <div class="speaker-photo">
     <img src="https://lh3.googleusercontent.com/sitesv/AAzXCkcd61hNpiTQLj69mMiYIcMWiRv8xDDLJw6AKI3FSruK9nNpQxTGWrgJ_8ByZRVWEObpbXyYh2w54oFgH5mOnCansNCIhdEAqB9nBNTW6iG7QwSP8aNsSuoO15MzMLg2Op52JATlDPPqw9TUTvcE7_RG459iyxI63oS_SkA7iNitjIDwdvUSd-mrmXYl-5NJDMHOOOTeeTaK-v9d6vU4vYjoFgaTbaxXZBzw=w1280" alt="Dongjae Lee">
   </div>
@@ -272,7 +279,7 @@ We invite abstract submissions related to (but not limited to) the following top
 </div>
 
 
-<div class="speaker-item">
+<div class="speaker-item" id="speaker-kyungmo">
   <div class="speaker-photo">
     <img src="https://lh3.googleusercontent.com/sitesv/AAzXCkeH_Cf9GZy6pP0AUemPXckT48p4ZF0vJnKum_igHlupS0q-CeKc84lA9WxCaa-BMaBVQ0Qq7_UWstEwuoR-g2zFUMmiXiXUEex1Xx74XAgn13vCjzsU2fzH8vwH1wokjZLAu0gcT_XridbGWalmRYv-naXqRL_P9wKNcq4Rm6LkMYdOwGr6QlJW1abjSDwobAdZPuR7t6El5W87L3UHPEmTKHiyPdUdZ3pkEDI=w1280" alt="Kyungmo Koo">
   </div>
