@@ -171,7 +171,7 @@ We invite abstract submissions related to (but not limited to) the following top
     <tr>
       <td class="time-cell">14:55 – 15:30</td>
       <td class="talk-cell">
-        <div class="talk-title">Talk-7</div>
+        <div class="talk-title">Revisiting Main Memory-Based Covert and Side Channel Attacks in the Context of Processing-in-Memory</div>
         <div class="talk-speaker"><a href="#organizer-nisa">Nisa Bostanci</a></div>
       </td>
     </tr>
