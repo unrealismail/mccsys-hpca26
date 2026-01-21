@@ -489,6 +489,162 @@ h3 {
   border: 2px dashed #ddd;
 }
 
+/* Agenda Table */
+.agenda-table-container {
+  margin: 2rem 0;
+  overflow-x: auto;
+}
+
+.agenda-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: 0 2px 15px rgba(92, 45, 145, 0.1);
+}
+
+.agenda-table thead {
+  background: var(--bg-gradient);
+  color: white;
+}
+
+.agenda-table th {
+  padding: 1rem 1.25rem;
+  text-align: left;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+}
+
+.agenda-table th.col-time {
+  width: 130px;
+}
+
+.agenda-table th.col-talk {
+  width: auto;
+}
+
+.agenda-table th.col-materials {
+  width: 140px;
+  text-align: center;
+}
+
+.agenda-table tbody tr {
+  border-bottom: 1px solid #eee;
+  transition: background 0.2s ease;
+}
+
+.agenda-table tbody tr:hover:not(.break-row) {
+  background: var(--bg-light);
+}
+
+.agenda-table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.agenda-table td {
+  padding: 1rem 1.25rem;
+  vertical-align: middle;
+}
+
+.time-cell {
+  font-weight: 600;
+  color: var(--primary-color);
+  white-space: nowrap;
+  font-size: 0.95rem;
+}
+
+.talk-cell {
+  line-height: 1.5;
+}
+
+.talk-title {
+  font-weight: 600;
+  color: var(--text-color);
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.talk-speaker {
+  color: var(--accent-color);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.materials-cell {
+  text-align: center;
+  color: var(--text-light);
+}
+
+.material-btn {
+  display: inline-block;
+  background: var(--primary-color);
+  color: white !important;
+  padding: 0.4rem 0.9rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.material-btn:hover {
+  background: var(--primary-light);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(92, 45, 145, 0.25);
+}
+
+/* Break rows */
+.break-row {
+  background: linear-gradient(135deg, #f9f7fc 0%, #f3eef8 100%);
+}
+
+.break-row:hover {
+  background: linear-gradient(135deg, #f9f7fc 0%, #f3eef8 100%) !important;
+}
+
+.break-cell {
+  text-align: center !important;
+  font-weight: 600;
+  color: var(--primary-light);
+  font-size: 0.95rem;
+  padding: 0.9rem 1.25rem;
+}
+
+/* Agenda table mobile */
+@media (max-width: 768px) {
+  .agenda-table th,
+  .agenda-table td {
+    padding: 0.75rem 0.6rem;
+    font-size: 0.85rem;
+  }
+  
+  .agenda-table th.col-time {
+    width: 90px;
+  }
+  
+  .agenda-table th.col-materials {
+    width: 90px;
+  }
+  
+  .time-cell {
+    font-size: 0.8rem;
+  }
+  
+  .talk-title {
+    font-size: 0.9rem;
+  }
+  
+  .talk-speaker {
+    font-size: 0.8rem;
+  }
+  
+  .material-btn {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.7rem;
+  }
+}
+
 /* Livestream Section */
 .livestream-section {
   background: var(--bg-light);

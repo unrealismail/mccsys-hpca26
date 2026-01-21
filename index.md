@@ -95,9 +95,126 @@ We invite abstract submissions related to (but not limited to) the following top
 
 ## Agenda & Workshop Materials {#agenda}
 
-<div class="agenda-placeholder">
-  <p><strong>Program Schedule Coming Soon</strong></p>
-  <p>The detailed agenda will be announced after the acceptance notifications.</p>
+<div class="agenda-table-container">
+<table class="agenda-table">
+  <thead>
+    <tr>
+      <th class="col-time">Time</th>
+      <th class="col-talk">Talk</th>
+      <th class="col-materials">Materials</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="time-cell">08:45 – 08:55</td>
+      <td class="talk-cell">
+        <div class="talk-title">Logistics/Welcome</div>
+        <div class="talk-speaker">Ismail</div>
+      </td>
+      <td class="materials-cell">—</td>
+    </tr>
+    <tr>
+      <td class="time-cell">08:55 – 09:55</td>
+      <td class="talk-cell">
+        <div class="talk-title">Onur's Talk</div>
+        <div class="talk-speaker">Onur</div>
+      </td>
+      <td class="materials-cell">—</td>
+    </tr>
+    <tr>
+      <td class="time-cell">09:55 – 10:30</td>
+      <td class="talk-cell">
+        <div class="talk-title">Talk-1</div>
+        <div class="talk-speaker">Ismail</div>
+      </td>
+      <td class="materials-cell">—</td>
+    </tr>
+    <tr class="break-row">
+      <td class="time-cell">10:30 – 11:00</td>
+      <td class="break-cell" colspan="2">☕ Coffee Break</td>
+    </tr>
+    <tr>
+      <td class="time-cell">11:00 – 11:35</td>
+      <td class="talk-cell">
+        <div class="talk-title">MASTODON: Enabling Early-Stage Cross-Stack Simulation for Processing Using Memory Systems</div>
+        <div class="talk-speaker">Saugata</div>
+      </td>
+      <td class="materials-cell">—</td>
+    </tr>
+    <tr>
+      <td class="time-cell">11:35 – 12:10</td>
+      <td class="talk-cell">
+        <div class="talk-title">Fault Injection Platform for Processing-using-Memory Architectures</div>
+        <div class="talk-speaker">Joao</div>
+      </td>
+      <td class="materials-cell">—</td>
+    </tr>
+    <tr>
+      <td class="time-cell">12:10 – 12:45</td>
+      <td class="talk-cell">
+        <div class="talk-title">Talk-4</div>
+        <div class="talk-speaker">Rakesh</div>
+      </td>
+      <td class="materials-cell"><a href="#" class="material-btn">CIPHERMATCH</a></td>
+    </tr>
+    <tr class="break-row">
+      <td class="time-cell">12:45 – 13:45</td>
+      <td class="break-cell" colspan="2">🍽️ Lunch Break</td>
+    </tr>
+    <tr>
+      <td class="time-cell">13:45 – 14:20</td>
+      <td class="talk-cell">
+        <div class="talk-title">Offloading to CXL Computational Memory</div>
+        <div class="talk-speaker">Ada</div>
+      </td>
+      <td class="materials-cell">—</td>
+    </tr>
+    <tr>
+      <td class="time-cell">14:20 – 14:55</td>
+      <td class="talk-cell">
+        <div class="talk-title">Talk-6</div>
+        <div class="talk-speaker">Dongjae</div>
+      </td>
+      <td class="materials-cell">—</td>
+    </tr>
+    <tr>
+      <td class="time-cell">14:55 – 15:30</td>
+      <td class="talk-cell">
+        <div class="talk-title">Talk-7</div>
+        <div class="talk-speaker">Nisa</div>
+      </td>
+      <td class="materials-cell"><a href="#" class="material-btn">IMPACT</a></td>
+    </tr>
+    <tr class="break-row">
+      <td class="time-cell">15:30 – 16:00</td>
+      <td class="break-cell" colspan="2">☕ Coffee Break</td>
+    </tr>
+    <tr>
+      <td class="time-cell">16:00 – 16:35</td>
+      <td class="talk-cell">
+        <div class="talk-title">PIMphony: Overcoming Bandwidth and Capacity Inefficiency in PIM-based Long-Context LLM Inference System</div>
+        <div class="talk-speaker">Talk-8</div>
+      </td>
+      <td class="materials-cell">—</td>
+    </tr>
+    <tr>
+      <td class="time-cell">16:35 – 17:10</td>
+      <td class="talk-cell">
+        <div class="talk-title">Storage-Centric Overview</div>
+        <div class="talk-speaker">Nika</div>
+      </td>
+      <td class="materials-cell">—</td>
+    </tr>
+    <tr>
+      <td class="time-cell">17:10 – 17:45</td>
+      <td class="talk-cell">
+        <div class="talk-title">Talk-10</div>
+        <div class="talk-speaker">Konstantina</div>
+      </td>
+      <td class="materials-cell"><a href="#" class="material-btn">MARS</a></td>
+    </tr>
+  </tbody>
+</table>
 </div>
 
 ### Invited Speakers {#speakers}
