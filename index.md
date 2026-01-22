@@ -287,7 +287,7 @@ We invite abstract submissions related to (but not limited to) the following top
     <h4><a href="https://sites.google.com/view/aihalab/" target="_blank">Kyungmo Koo</a></h4>
     <div class="speaker-affiliation">Hanyang University</div>
     <div class="speaker-talk-title">"Talk Title"</div>
-    <p class="speaker-bio"><strong>Short Bio:</strong>.</p>
+    <p class="speaker-bio"><strong>Short Bio:</strong> Kyungmo Koo is a second-year Ph.D. student in the integrated M.S./Ph.D. program at Hanyang University, advised by Professor Jungwook Choi, and a member of the AIHA (AI Hardware and Algorithm) Lab. He received his B.S. degree from Hanyang University. His research focuses on optimizing PIM-based memory-centric systems, with an emphasis on system architecture and end-to-end performance/efficiency.</p>
     <div class="speaker-abstract">
       <strong>Abstract:</strong>
     </div>
