@@ -370,7 +370,7 @@ We invite abstract submissions related to (but not limited to) the following top
 
 <div class="organizer-item">
   <div class="organizer-photo">
-    <img src="https://media.licdn.com/dms/image/v2/C5603AQGJ837GRBjHWw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516896754946?e=1768435200&v=beta&t=RjcEOR5-dlvU1nbKvLzmBxOc6X3gvokNkA-VutRP9f8" alt="Dr. Mohammad Sadrosadati">
+    <img src="https://kratos4.ethz.ch/wp-content/uploads/2020/06/MohammadS.jpg" alt="Dr. Mohammad Sadrosadati">
   </div>
   <div class="organizer-info">
     <h4><a href="https://www.linkedin.com/in/mohammad-sadrosadati-23928a40" target="_blank">Dr. Mohammad Sadrosadati</a></h4>
