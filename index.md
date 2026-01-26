@@ -19,14 +19,15 @@ layout: default
 
 <!-- Hero Section -->
 <div class="hero-section">
-  <div class="hero-date">FEBRUARY 1<sup>st</sup>, 2026</div>
+  <div class="hero-date">FEBRUARY 1<sup>st</sup>, 2026 (08.45-17.45)</div>
+  <div class="hero-date">Room: <a href="https://2026.hpca-conf.org/room/hpcc-2026-venue-collaroy">Collaroy</a></div>
   <h1 class="hero-title">MCCSys 2026</h1>
   <h2 class="hero-subtitle">4th Workshop on Memory-Centric Computing Systems</h2>
   <p class="hero-conference">In conjunction with the 32nd International Symposium on<br>High-Performance Computer Architecture (HPCA 2026)</p>
   <p class="hero-location"> Sydney, Australia</p>
   <div class="hero-buttons">
     <a href="#agenda" class="btn btn-primary">Workshop Agenda</a>
-    <a href="https://2026.hpca-conf.org/attending/registration" class="btn btn-secondary" target="_blank">Register Now</a>
+    <a href="#livestream-livestream" class="btn btn-secondary" target="_blank">Livestream Link</a>
   </div>
 </div>
 
