@@ -27,7 +27,7 @@ layout: default
   <p class="hero-location"> Sydney, Australia</p>
   <div class="hero-buttons">
     <a href="#agenda" class="btn btn-primary">Workshop Agenda</a>
-    <a href="#livestream-livestream" class="btn btn-secondary" target="_blank">Livestream Link</a>
+    <a href="#livestream" class="btn btn-secondary" target="_blank">Livestream Link</a>
   </div>
 </div>
 
