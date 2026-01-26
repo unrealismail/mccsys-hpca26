@@ -182,7 +182,7 @@ We invite abstract submissions related to (but not limited to) the following top
     <tr>
       <td class="time-cell">16:00 – 16:35</td>
       <td class="talk-cell">
-        <div class="talk-title">Talk Title (Soon)</div>
+        <div class="talk-title">PIMphony: Overcoming Bandwidth and Capacity Inefficiency in PIM-based Long-Context LLM Inference Systems</div>
         <div class="talk-speaker"><a href="#speaker-kyungmo">Kyungmo Koo</a></div>
       </td>
     </tr>
@@ -257,7 +257,7 @@ We invite abstract submissions related to (but not limited to) the following top
     <div class="speaker-talk-title">"Fault Injection Platform for Processing-using-Memory Architectures"</div>
     <p class="speaker-bio"><strong>Short Bio:</strong>  I received my bachelor's degree in Computer Engineering from the Federal University of Santa Catarina (UFSC) in 2017, followed by a master's degree in 2019 and a Ph.D. in Computer Science from the Federal University of Rio Grande do Sul (UFRGS) in 2025. I'm currently a postdoctoral researcher at the Chair for Compiler Construction to research and develop code optimizations for emerging AI systems as part of the ScaDS.AI Dresden/Leipzig center. My main research interests include Processing-in-Memory architectures, system design, hardware/software co-design, design automation tools, compilers, reliability evaluation, and fault tolerance methods. On the application side, I am particularly interested in efficient methods for machine learning algorithms through memory-centric optimizations, whether compiler-driven, hand-tuned, or enabled by domain-specific tools, for energy efficiency.</p>
     <div class="speaker-abstract">
-      <strong>Abstract:</strong> 
+      <strong>Abstract:</strong> Processing-using-Memory (PuM) enables bulk bitwise operations inside memory arrays, reducing data movement and exposing massive parallelism. However, PuM systems are highly vulnerable to device- and circuit-level faults, whose impact must ultimately be evaluated at the application level. Existing reliability evaluation approaches are either prohibitively slow or do not scale to large tensor workloads. We present a scalable fault-injection platform for PuM architectures that enables cross-layer reliability evaluation from in-memory operations to end applications. The platform consists of two complementary components: (i) a Python-based library with NumPy-like syntax that provides gate-level-accurate operation fault simulation, and (ii) an LLVM-based fault injection engine that operates at the intermediate-representation level, requires no application recoding, and supports fast, large-scale experiments. Together, they enable low-design-time, high-level fault simulation with fast execution and application-level evaluation.
     </div>
   </div>
 </div>
@@ -286,10 +286,10 @@ We invite abstract submissions related to (but not limited to) the following top
   <div class="speaker-info">
     <h4><a href="https://sites.google.com/view/aihalab/" target="_blank">Kyungmo Koo</a></h4>
     <div class="speaker-affiliation">Hanyang University</div>
-    <div class="speaker-talk-title">"Talk Title"</div>
+    <div class="speaker-talk-title">"PIMphony: Overcoming Bandwidth and Capacity Inefficiency in PIM-based Long-Context LLM Inference Systems"</div>
     <p class="speaker-bio"><strong>Short Bio:</strong> Kyungmo Koo is a second-year Ph.D. student in the integrated M.S./Ph.D. program at Hanyang University, advised by Professor Jungwook Choi, and a member of the AIHA (AI Hardware and Algorithm) Lab. He received his B.S. degree from Hanyang University. His research focuses on optimizing PIM-based memory-centric systems, with an emphasis on system architecture and end-to-end performance/efficiency.</p>
     <div class="speaker-abstract">
-      <strong>Abstract:</strong>
+      <strong>Abstract:</strong> Long-context LLM inference is increasingly constrained by memory bandwidth and capacity. As context length grows, the KV cache footprint expands, limiting batching and keeping inference strongly memory-bound. Processing-in-Memory (PIM), particularly designs specialized for GEMV, offers a promising way to exploit high internal memory bandwidth to alleviate these bottlenecks. However, in long-context scenarios, existing PIM-based approaches often suffer from bandwidth underutilization and capacity inefficiency due to suboptimal data placement, static command scheduling and memory management. We present PIMphony, a system that co-optimizes bandwidth and capacity utilization in PIM-based long-context LLM serving to significantly improve inference performance.
     </div>
   </div>
 </div>
