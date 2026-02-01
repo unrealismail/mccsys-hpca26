@@ -181,21 +181,21 @@ We invite abstract submissions related to (but not limited to) the following top
       </td>
     </tr>
     <tr>
-      <td class="time-cell">16:35 – 17:05</td>
+      <td class="time-cell">16:35 – 17:10</td>
       <td class="talk-cell">
         <div class="talk-title">Storage-Centric Systems for Genomics and Metagenomics</div>
         <div class="talk-speaker">Nika Mansouri Ghiasi</div>
       </td>
     </tr>
     <tr>
-      <td class="time-cell">17:05 – 17:35</td>
+      <td class="time-cell">17:10 – 17:40</td>
       <td class="talk-cell">
         <div class="talk-title">Conduit: Programmer-Transparent Near-Data Processing Using Multiple Compute-Capable Resources in Solid State Drives</div>
         <div class="talk-speaker">Rakesh Nadig</div>
       </td>
     </tr>
     <tr>
-      <td class="time-cell">17:35 – 17:45</td>
+      <td class="time-cell">17:40 – 17:45</td>
       <td class="talk-cell">
         <div class="talk-title">Closing Remarks</div>
         <div class="talk-speaker"><a href="#organizer-ismail">Ismail Emir Yuksel</a></div>
