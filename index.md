@@ -113,42 +113,35 @@ We invite abstract submissions related to (but not limited to) the following top
       </td>
     </tr>
     <tr>
-      <td class="time-cell">08:55 – 09:55</td>
+      <td class="time-cell">08:55 – 10:30</td>
       <td class="talk-cell">
-        <div class="talk-title">Memory-Centric Computing</div>
+        <div class="talk-title">Memory-Centric Computing: Solving Memory's Computing Problem</div>
         <div class="talk-speaker"><a href="#organizer-onur">Prof. Onur Mutlu</a></div>
-      </td>
-    </tr>
-    <tr>
-      <td class="time-cell">09:55 – 10:30</td>
-      <td class="talk-cell">
-        <div class="talk-title">Processing-using-Memory in Real DRAM Chips</div>
-        <div class="talk-speaker"><a href="#organizer-ismail">Ismail Emir Yuksel</a></div>
       </td>
     </tr>
     <tr class="break-row">
       <td class="time-cell">10:30 – 11:00</td>
       <td class="break-cell">Coffee Break</td>
     </tr>
-    <tr>
+      <tr>
       <td class="time-cell">11:00 – 11:35</td>
+      <td class="talk-cell">
+        <div class="talk-title">Processing-using-Memory in Real DRAM Chips</div>
+        <div class="talk-speaker"><a href="#organizer-ismail">Ismail Emir Yuksel</a></div>
+      </td>
+    </tr>
+    <tr>
+      <td class="time-cell">11:35 – 12:10</td>
       <td class="talk-cell">
         <div class="talk-title">MASTODON: Enabling Early-Stage Cross-Stack Simulation for Processing Using Memory Systems</div>
         <div class="talk-speaker"><a href="#speaker-saugata">Prof. Saugata Ghose</a></div>
       </td>
     </tr>
     <tr>
-      <td class="time-cell">11:35 – 12:10</td>
+      <td class="time-cell">12:10 – 12:45</td>
       <td class="talk-cell">
         <div class="talk-title">Fault Injection Framework for Processing-using-Memory Architectures</div>
         <div class="talk-speaker"><a href="#speaker-joao">Dr. João Paulo Cardoso de Lima</a></div>
-      </td>
-    </tr>
-    <tr>
-      <td class="time-cell">12:10 – 12:45</td>
-      <td class="talk-cell">
-        <div class="talk-title">CIPHERMATCH: Accelerating Homomorphic Encryption-Based String Matching via Memory-Efficient Data Packing and In-Flash Processing</div>
-        <div class="talk-speaker">Rakesh Nadig</div>
       </td>
     </tr>
     <tr class="break-row">
@@ -197,8 +190,8 @@ We invite abstract submissions related to (but not limited to) the following top
     <tr>
       <td class="time-cell">17:05 – 17:35</td>
       <td class="talk-cell">
-        <div class="talk-title">MARS: Processing-In-Memory Acceleration of Raw Signal Genome Analysis Inside the Storage Subsystem</div>
-        <div class="talk-speaker">Dr. Konstantina Koliogeorgi</div>
+        <div class="talk-title">Conduit: Programmer-Transparent Near-Data Processing Using Multiple Compute-Capable Resources in Solid State Drives</div>
+        <div class="talk-speaker">Rakesh Nadig</div>
       </td>
     </tr>
     <tr>
